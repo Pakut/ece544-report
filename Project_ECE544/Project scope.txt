@@ -1,0 +1,5 @@
+It won't be enough to just download code and run it on some data. It also won't be enough to download code, modify a few things here and there and run on some data.
+
+However, you can use downloaded code as a baseline and implement an extension which is well justified and motivated via derivations, i.e., the contribution would be more on the `theoretical' side. An extensive evaluation and sufficiently novel contribution in the form of heuristics would be enough as well.
+
+In short, we want to see that you understand one or multiple aspects of the class topic, can implement those in practice and demonstrate convincingly that this makes sense. I.e., we want you to think about the results which you obtain and why those are reasonable given what you implemented and looked at.

@@ -1,0 +1,42 @@
+\vspace{-6mm}
+\section{Image Enhancement}
+\vspace{-2mm}
+
+
+
+This module improves upon the resolution of images obtained from the \texttt{Sublinear Imaging Algorithm} module.
+The resolution of FMCW imaging is limited by the bandwidth of the frequency sweep, and generating a sweep of arbitrarily large bandwidth is challenging. Therefore to obtain high resolution images, we stitch together the received FMCW sweeps across the three different frequency bands by compensating for the phase offsets between the sweeps. Using this, we create a \textit{virtual} FMCW sweep that spans a much larger bandwidth, potentially providing a three-fold improvement in resolution.
+
+%  the received FMCW signals at the three different frequency bands (Fig. 1) to create \textit{virtual} FMCW sweeps that span much higher bandwidths. This could potentially provide a three-fold improvement in resolution.
+
+For specularity, we exploit both the inherent mobility associated with vehicles and the multiple frequency bands. In particular, we segment the reflections that we obtain across time and frequency from different portions of an object, align them across snapshots while accounting for the relative motion, and then combine the individual components to create the overall image.
+The final enhanced image output will then be passed on to the AI system of the self-driving car for accurate scene understanding and decision making.
+
+%Using multiple frequency bands also helps tackle the specularity problem. Since waves of different frequencies interact with objects in different ways, certain surfaces that are not imaged at a particular frequency could appear at some other frequency, thereby reducing the number of blind spots in our system. We could also exploit the inherent mobility associated with vehicles to merge information across time as well. 
+%As the relative position between the object and the transceiver changes with time, the specularity properties change, and the different surfaces imaged can be stitched to create a coherent 3D object. 
+
+
+\iffalse
+
+
+
+
+ We could also exploit the inherent mobility associated with vehicles to combine 
+
+ Hence, by using three different frequency bands, we could reduce the number of blind spots in our system. In addition to frequency, we could also combine reflection over time. This would leverage the inherent mobility associated with vehicles. As vehicles move, the relative positions of the mmWave
+transceivers and the reflecting objects would change. As a 
+result, different portions of the reflecting surface would be visible across time. This information could be merged across time to create a coherent 3D image by accounting for the relative motion \footnote{The relative motion is estimated from the velocity estimation module in our system} between the object and the mmWave transceivers. 
+\fi
+
+
+\iffalse
+In order to generate high resolution images using mmWave, we combine the received FMCW signals at the three different frequency bands, i.e. 24 Ghz, 60 Ghz and 77 Ghz.  Instead, we combine the received FMCW ramps from the three frequency bands to generate a "virtual" FMCW sweep that spans a much higher bandwidth. This technique has the potential to provide three-fold improvement in resolution over using FMCW at a single frequency band.
+
+
+In addition to latency
+
+
+In order to obtain and complete and a high resolution image, we need to address tha challenge of specularity.
+
+
+\fi

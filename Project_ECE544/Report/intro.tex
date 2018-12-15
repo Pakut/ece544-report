@@ -1,0 +1,21 @@
+\section{Introduction and Project Descriptions}
+%\textcolor{red}{
+Describe the proposed problem, give background information via a thorough literature review. If you are proposing a new method, you should also clearly state the gap between the current literature and your work (e.g., what new contribution(s) does your method make?)
+}
+
+Since the past few years, AI-Powered autonomy revolution in the automotive industry has attracted great attention worldwide. It is believed that in the not-too-distant future, fully
+autonomous vehicles will be the norm rather than the exception, redefining mobility in our daily lives. 
+Deep learning are widely applied on sensor data to localize and map objects, as well as for scene-understanding. Previous works have demonstrated precise and accurate perception, but they are limited to data obtained from LiDAR and cameras. The nm wavelength of these optical sensors enables high resolution, however thy fail in low visibility conditions such as fog, rain, and snow, because the light beams are narrower than water droplets and snowflakes [?], whcih is going to be a major roadblock to the 5th SAE level of Full Automation [?]. 
+
+In contrast, RF signals have the advantage that they have more favorable penetration properties, and can hence provide an alternate imaging solution in such inclement weather. 
+However, radar waves can propagate through these small particles and matain reliable performance. Besides, radar cam also directly measures the distance and velocity of surrounding vehicles.
+The advent of Millimeter-Wave technology provides a good candidate for such RF imaging since along with good propagation characteristics, it also provides huge bandwidth and large-aperture antenna arrays. This enables accurate Time-of-Flight (ToF) and Angle-of-Arrival (AoA) estimation for imaging. However, the imaging resolution in Millimeter-Wave is still not high enough to allow for applications like object detection or scene-understanding. Moreover, with RF one faces the issue of specularity, where reflections from objects may not come back to the receiver depending on the angle of incidence of the transmitted signal. Due to these challenges, the current state-of-the-art in autonomous vehicles uses mmWave radars only for forward ranging to detect the distance from the car ahead, instead of using it for imaging. 
+
+In this project, we propose to develop techniques that can enable high resolution imaging in low visibility conditions with RF signals. Our goal is to use deep learning models to enhance the low resolution images obtained from Millimeter wave radars, and enable various crucial vision applications for autonomous vehicles like lane detection, image mapping, localization, and object identification.
+
+\iffalse
+One of the most fundamental challenges towards this vision is to precisely and reliably sense and recreate the road environment. Nowadays, Radar along with LiDAR and camera, forms the backbone of self-driving car perception. Its unique features make it a great complementary to optical sensors in the sensor fusion system. For example, optical sensors fail in low visibility conditions such as fog, rain, and snow, because the light beams are narrower than water droplets and snowflakes [?], whcih is going to be a major roadblock to the 5th SAE level of Full Automation [?]. However, radar waves can propagate through these small particles and matain reliable performance. Besides, radar cam also directly measures the distance and velocity of surrounding vehicles.
+\fi
+
+%  In contrast, radar has more favorable propagation characteristics in such inclement weather, due to its better penetration properties. Traditional radar imaging resolution is not comparable with that from LiDAR. The rising of Millimeter-Wave (mmWave) and 5G technology offers more accurate Time-of-Flight (ToF) and Angle-of-Arrival (AoA) estimation, because of the wider available bandwidth and miniature size antenna arrays. However, LiDAR performance still exceeds that of Millimeter-wave radar.
+%\par In this project, we are looking forward to investigating the possibility of improving Millimeter wave radar imaging resolution by applying deep learning. 

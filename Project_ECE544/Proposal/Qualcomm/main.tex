@@ -1,0 +1,65 @@
+\documentclass[twocolumn,11pt]{article}
+%\documentclass[sigconf,11pt]{acmart}
+\usepackage{url}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{graphicx, tabularx}
+%\usepackage{textcomp}
+%\usepackage{float}
+\usepackage[inline]{enumitem}
+%\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+\usepackage{amsmath}
+\usepackage{MnSymbol}
+\usepackage{wasysym}
+\usepackage{float}
+\usepackage{natbib}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+
+\setlength{\abovecaptionskip}{2pt}
+\setlength{\belowcaptionskip}{-10pt}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+%\setlength{\tabcolsep}{3em}
+\setlength{\bibsep}{0pt plus 0.3ex}
+\addtolength{\topmargin}{-1.1in}
+\addtolength{\textheight}{2.2in}
+\setlength{\columnsep}{20pt}
+\newcommand{\lidar}{LiDAR}
+
+\setlength{\parskip}{8pt}
+\setlength{\parindent}{0pt}
+%\newcommand{\minus}{\vspace{-0.05in}}
+
+
+\setlength{\droptitle}{-6em}
+\title{Millimeter-Wave Imaging for Self-Driving Cars\vspace{-2ex}}
+\author{Suraj Jog and Ashutosh Dhekne \\ PI: Haitham Hassanieh and Romit Roy Choudhury (UIUC)\vspace{-10ex}}
+\date{\vspace{-2ex}}
+\begin{document}
+	
+	\maketitle
+	\vspace{-10em}
+	\thispagestyle{empty}
+	\pagestyle{empty}
+	\input{introduction1}
+	\input{system_overview}
+%	\input{core}
+	\input{sublinear_algo}
+	\input{resolution}
+	\input{ground_work}
+	\input{team}
+    \input{horizon}
+    
+\vspace{-0.051in}
+\bibliographystyle{unsrt}
+{
+	\footnotesize{
+\bibliography{main}
+}
+}
+
+\end{document}

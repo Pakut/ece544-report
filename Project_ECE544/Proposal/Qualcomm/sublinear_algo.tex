@@ -1,0 +1,149 @@
+
+\vspace{-3mm}
+\section{Sublinear Imaging Algorithm }
+%\vspace{-2mm}
+
+
+From the transmitted and received signal, we can estimate the distance and
+velocity of all objects that reflected the transmitter's signal back to the
+receiver. However, in order to image the environment we also need to know the
+direction along which the reflected signals from each object was received. 
+Instead of scanning, our algorithm uses multi-armed beams shown in  Fig.~\ref{fig:beam}(d) 
+that can sample measurements from multiple directions simultaneously. This enables us
+to hash the beam directions using a few carefully chosen hash functions. 
+We then identify the correct alignment by tracking how the energy
+changes across different hash functions.
+
+Our algorithm is best understood through an example. Consider
+Fig.~\ref{fig:beam}(d), where the multi-armed beam pattern is as shown, and the
+reflected signal arrives only along the 60\textdegree ~direction due to channel
+sparsity in mmWave. While the received signal alone is sufficient to estimate
+the distance and velocity of the corresponding reflector, we cannot uniquely
+determine if the reflector is along 40\textdegree, 60\textdegree,
+110\textdegree or 150\textdegree, with respect to the receiver. However, this
+ambiguity can be resolved by using another multi-armed beam shown in
+Fig.~\ref{fig:beam}(e).  In both measurements we see the same reflected signal,
+and 60\textdegree ~is the only common direction in the two beam patterns. 
+
+While the above shows a simple example, we will design an algorithm that can
+handle more complex scenarios with more reflections. We will also 
+exploit the sparsity along the range and velocity dimentsions to further enhance our algorithm. 
+In particular, since we do not expect objects to have the same distance and the same velocity in 
+real-life settings, we can use the sparsity in these supplementary dimensions to 
+isolate the reflections with even fewer measurements.
+
+\begin{figure*}
+	\centering
+	\includegraphics[trim={2.5cm 7cm 4.1cm 1.5cm},clip,width=6.5in]{../Photos/experiments.pdf}
+%	\includegraphics[trim={.1cm 7cm 3cm 1.1cm},clip,width=7.5in]{../Photos/experiments_2.pdf}
+%	\footnotesize{\caption{Experiments with fog}}
+	\caption{\footnotesize{Comparison of ranging using laser and mmWave in clear conditions and after introduction of fog}}
+	\label{fig:expt_setup}
+\end{figure*}
+
+
+
+%We will build upon the above ideas to design an efficient and light-weight algorithm, and implement it on a custom-built hardware platform. 
+
+
+%which in turn implies that the receiver will observe reflected signals only along few directions at any time. %Therefore by sampling multiple directions simultaneously, we exploit this sparsity to estimate the Direction of Arrival of the reflected FMCW signals in just $O(log(n))$ measurements as opposed to the $O(n)$ measurements required by sequential scans.
+
+
+%Let us consider the case in Fig.~\ref{fig:beam1} again, where due to channel sparsity, the reflected signal arrives only along the 60\textdegree ~direction. Beam 1 and Beam 2 would not receive any signal since they do not collect energy from the 60\textdegree ~direction. This would in turn eliminate all the directions in Beam 1 and Beam 2 as potential DoAs for the reflected signal. Beam 3 and Beam 4 on the other hand, would both recieve the reflected signal from the 60\textdegree direction. Moreover, on observing the received signal from Beam 3 and Beam 4, we can uniquely identify the DoA of the received signal to be along 60\textdegree ~direction, since it is the only common direction in Beam 3 and Beam 4. Therefore, with only four measurements, we were able to isolate the DoA of the reflector here. This idea can be extended to the case of multiple reflected signals as well.
+
+
+\iffalse
+
+% direction 7, 5 or 2, thus making imaging infeasible.
+
+\begin{figure}
+	\centering
+	%\includegraphics[trim = 0cm 2cm 0cm 2cm, clip, width = \columnwidth]{../Photos/New/system.pdf}
+	\includegraphics[trim = 0cm 7cm 0cm 8.5cm, clip, width = \columnwidth]{../Photos/New/s66.pdf}
+	\caption{\footnotesize{Two multi-armed beam patterns with a single overlap in the 60\textdegree~angle disambiguate the direction of the reflector.}}
+	%\footnotesize{\caption{Multi-Armed Beam Patterns}}%The frequency offset between the transmitted and the received signals corresponds to the time of flight of the signal and hence the distance between the antenna and the reflector.}
+	\label{fig:beam1}
+\end{figure}
+
+Further, on observing the received signal from Beam \#3 and Beam \#4, we can uniquely identify the DoA of the received signal to be along 60\textdegree ~direction, since it is the only common direction in Beam \#3 and Beam \#4. Therefore, with only four measurements, we were able to isolate the DoA of the reflector here. This idea can be easily extended for multiple reflected signals as well.
+
+\begin{figure*}[t]
+	\centering
+	\includegraphics[trim={1cm 4cm 4cm 0.5cm},clip,width=6.5in]{../Photos/experiments.pdf}
+%	\footnotesize{\caption{Experiments with fog}}
+	\caption{Experiments with fog}
+	\label{fig:expt_setup}
+\end{figure*}
+
+To further illustrate the intuition behind our algorithm, let us consider Fig.~\ref{fig:beam1} again. Here we have $M=4$ multi-armed beam pattern measurements. Due to channel sparsity, only the reflector along the $60^\circ$ direction reflects the transmitter's signal back to the receiver. Therefore, any beam pattern that does not collect energy from along $60^\circ$ (Pattern 2 and Pattern 4) would lead to no signal being observed by the receiver. This would directly eliminate all the directions in Pattern 2 and Pattern 4 as potential DoAs for the reflected signal. Further, on observing the received signal from Pattern 1 and Pattern 3, we can uniquely identify the DoA of the received signal to be along $60^\circ$, since $60^\circ$ is the only common direction in Pattern 1 and Pattern 3. Therefore, in just 4 beam pattern measurements, we were able to isolate the DoA of the reflector, and in turn image it.
+\fi
+
+\iffalse
+could also be extended to exploit the sparsity of objects in the distance and velocity domain. 
+
+Particularly, the reflected signal from each object would have a corresponding estimated distance and velocity from the submodule above. Since we don't expect many objects to have the same distance and the same velocity in a real-life setting, we can use the sparsity in these two additional dimensions to isolate the DoAs with even fewer measurements.
+We will build upon the above ideas to design an efficient and light-weight algorithm, and implement it on a custom-built hardware platform. 
+\hl{Additionally, we would also need to solve for various practical challenges like multi-path, signal fading and so on, but we leave these details for future work.}
+\fi
+
+
+\iffalse
+
+
+the reflected signal arrives at the reflector only along the $60^\circ$ direction. While there are 7 possible DoAs for the reflected signal, by observing Config. C and Config. D we can conclude that the Direction 7,5,4 or 1 are not the DoAs (since the receiver does not receive any signal with these patterns). However. on observing Config. A we can isolate Direction 2 to be the DoA since Direction 5 and 7 were ruled out by Config. C and D. Therefore, in just three measurements, we can isolate the DoA of the reflected signal, and in turn image it.
+\fi
+
+\iffalse
+
+This above algorithm leverages the sparsity of the received signal in the angular domain. However, this idea can be further extended to leverage the sparisty in the distance and velocity domain as well. Particularly, the reflected signal from each object would have a corresponding estimated distance and velocity from the submodule above. Since we don't expect many objects to have the same distance and velocity in a real-life setting, we can leverage this additional information to isolate the DoAs with even lesser number of measurements. 
+We will build upon the above ideas to design an efficient and light-weight algorithm, and implement it on a custom-built hardware platform. 
+\hl{Additionally, we would also need to solve for various practical challenges like multi-path, signal fading and so on, but we leave these details for future work.}
+
+\fi
+
+\iffalse
+
+However 
+for imaging we need to estimate the angle of arrival of the reflected FMCW signal as well.
+
+
+ We can see that it is easy to estimate this here with just 4 measurements. 
+\fi
+
+
+\iffalse
+
+The use of multi-armed beams can resolve the ambiguity in $O(log(n))$ measurements as opposed to the $O(n)$ measurements required by sequential scans.
+
+
+
+To remove this ambiguity with low measurement overhead, we leverage the key observation that mmWave channels are sparse. %That is, at any time instant, we expect only a few reflected paths between the transmitter and receiver. 
+This in turn implies that the receiver will observe reflected signals only along few directions at any time instant. We make use of multi-armed  
+
+
+
+
+
+
+To illustrate the intuition behind our algorithm let us consider Fig.~\ref{fig:beam1} again. Due to sparsity, the reflected FMCW signal only arrives along direction 2 in Fig.~\ref{fig:beam1}. A sequential scan would require 7 measurements 
+
+
+Therefore, we make use of multi-armed beam patterns instead, that can capture measurements from multiple directions at the same time. We leverage the key observation that mmWave reflections are sparse, resulting in only few reflection paths between the transmitter and receiver. Therefore, in real-life scenarios you would very often have the situation that only a single 
+
+\fi
+
+
+
+
+
+
+
+%The key enabler of this technique is the fact that mmWave reflection are sparse. That is, at any point, we can expect only few reflected paths to exist between an mmWave transmitter and receiver. 
+
+
+
+
+
+
+
+

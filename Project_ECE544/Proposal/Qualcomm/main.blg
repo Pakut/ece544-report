@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: main.bib
+I was expecting a `,' or a `}'---line 57 of file main.bib
+ :  
+ :  journal={robotsforroboticists.com},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in tesla
+Warning--empty year in tesla
+Warning--empty journal in honda_sensing
+Warning--empty journal in bmw
+Warning--empty year in bmw
+Warning--empty author in wiki_acc
+Warning--empty year in wiki_acc
+Warning--empty journal in fog_machine
+Warning--empty year in fog_machine
+You've used 26 entries,
+            1791 wiz_defined-function locations,
+            573 strings with 7296 characters,
+and the built_in function-call counts, 5089 in all, are:
+= -- 475
+> -- 157
+< -- 8
++ -- 67
+- -- 41
+* -- 234
+:= -- 732
+add.period$ -- 85
+call.type$ -- 26
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 274
+empty$ -- 547
+format.name$ -- 41
+if$ -- 1205
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 17
+newline$ -- 134
+num.names$ -- 19
+pop$ -- 125
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 153
+stack$ -- 0
+substring$ -- 219
+swap$ -- 91
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 9
+while$ -- 40
+width$ -- 28
+write$ -- 270
+(There was 1 error message)

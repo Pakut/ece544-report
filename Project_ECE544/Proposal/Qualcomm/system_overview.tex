@@ -1,0 +1,116 @@
+\vspace{-4mm}
+\section{System Overview}
+\vspace{-2mm}
+
+% FMCW Primer
+
+
+\begin{figure*}[t]
+	\centering
+	\includegraphics[trim={0.4cm 8cm 1.3cm 0.5cm},clip,width=7.5in]{../Photos/overview_beams_1.pdf}
+	\caption{\footnotesize{(a) System Overview (b) 24GHz, 77GHz antenna (c) 60GHz Hardware Setup (d-e) Multi-armed beam patterns}}
+	\label{fig:beam}
+\end{figure*}
+
+
+%Fig.~\ref{fig:system1} shows the system overview. 
+%We generate images by obtaining the distance and direction estimates to each surrounding object. 
+Fig.~\ref{fig:beam}(a) shows an overview of our proposed system. The {RF Front End} uses FMCW at three different frequency bands (24 GHz, 60 GHz and 77 GHz) for robust imaging. %The multi-arm beam pattern for receiving reflected signals is provided by the \texttt{Sublinear Imaging} module.
+The received signal is fed into the {Sublinear Imaging Algorithm}.
+Based on the received signals, the algorithm provides feedback to the {RF Front End} about the optimal beam pattern for subsequent measurements. After collecting sufficient number of  measurements to estimate the distance and direction to each reflector, the {Sublinear Imaging Algorithm} passes on the data to the {Image Enhancement} module, which combines information across time and frequency to produce enhanced images.
+
+%The received signals are then fed into the  \texttt{Sublinear Imaging } module that estimates the distance, velocity, and direction to each reflector. After each measurement from the \texttt{RF Front End}, the \texttt{Sublinear Imaging} module provides feedback to the \texttt{RF Front End} about the optimal multi-armed beam pattern for subsequent measurements. 
+%Finally, the output from the \texttt{Sublinear Imaging} module goes to the \texttt{Image Enhancement} module which combines information across time and frequency to produce enhanced images. We now provide deeper insight into the functioning of each component.
+
+
+
+\iffalse
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[trim = 0cm 8cm 0cm 0.1cm, clip, width = \columnwidth]{../Photos/New/s77.pdf}
+%	\label{fig:system1}
+	\caption{\footnotesize{System Overview}}
+%	\footnotesize{\caption{System Overview}}%The frequency offset between the transmitted and the received signals corresponds to the time of flight of the signal and hence the distance between the antenna and the reflector.}
+	\label{fig:system1}
+\end{figure}
+
+
+
+We first have the \texttt{RF Front End} module, with the \texttt{FMCW} and \texttt{Multi-Armed BF} submodules. The FMCW submodule 
+
+
+
+The \texttt{Multi-Armed BF} submodule generates the different beam pattern configurations for the mmWave radios.
+
+Our system (Fig.~\ref{fig:system1}) makes use of FMCW \footnote{FMCW is a technique where the frequency of the transmitted signal is modulated such that the distance and velocity of objects can be estimated from the received signal. Distance estimates are obtained using Time-of-Flight whereas velocity estimation leverages Doppler shifts.} at three different frequency bands (24 Ghz, 60 Ghz and 77 Ghz) for robust imaging. 
+We use an omnidirectional transmitter that emits FMCW ramps, and a receiver equipped with  multi-armed beamforming capability (Fig. ??) that receives the reflected FMCW signals. The received FMCW signals are fed into the Sublinear Imaging module, where distance and velocity estimates for each object are computed. However, for accurate imaging we also require the angular location of the object. This is obtained from the AoA estimation submodule, which takes as input the distance and velocity estimates along with the corresponding multi-armed beam pattern.
+%, to estimate the direction of each object.
+The output is then fed into the Image Accumulation module which combines information across time and the different frequency bands to produce an enhanced image of the environment.
+
+\fi
+
+
+
+
+\iffalse
+
+
+
+
+We use FMCW 
+\footnote{FMCW is a technique where the frequency of the transmitted signal is modulated such that the distance and velocity of objects can be estimated from the received signal. Distance estimates are obtained using Time-of-Flight whereas velocity estimation leverages Doppler shifts.} 
+at three different frequency bands (24 Ghz, 60 Ghz and 77 Ghz). 
+
+
+
+ to image different objects in the environment by obtaining the distance and direction estimates for each object. 
+ \fi
+ 
+
+\iffalse
+
+(that constantly emits FMCW sweeps), and a receiver that re
+
+
+
+We 
+
+
+
+We use FMCW
+ramps at three different frequency bands (24 GHz, 60 GHz and 77 GHz).
+
+
+
+
+along with multi-armed beam patterns (Fig. ??). The received FMCW signals are fed into the Sublinear Imaging module, where distance and velocity estimates for each object are computed. However, to accurately image the environment, we also require the angular location of the object. This is obtained from the AoA estimation submodule, which takes as input the distance and velocity estimates along with the corresponding beam pattern.
+%, to estimate the direction of each object.
+The information is then fed into the Image Accumulation module which combines information across time and the different frequency bands to produce an enhanced image of the environment.
+
+\fi
+
+\iffalse
+ reflected signals are received and the ToF of signals can be estimated} ramps
+
+of the environment by obtaining the distances along with the angle 
+
+
+\footnote{FMCW is a technique where the frequency of the transmitted signal is modulated such that the reflected signals are received and the ToF of signals can be estimated}
+\fi
+
+\iffalse
+
+ToF of signal can be estimated from the received signal
+
+sublinear beamforming
+velocity
+specularity
+resolution
+\fi
+
+
+
+

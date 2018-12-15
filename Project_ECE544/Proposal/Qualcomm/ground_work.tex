@@ -1,0 +1,42 @@
+
+
+\vspace{-4mm}
+\section{Initial Ground Work}
+\vspace{-2mm}
+
+\iffalse
+\begin{figure*}
+	\centering
+	\includegraphics[trim={1cm 4cm 4cm 0.5cm},clip,width=6.5in]{../Photos/experiments.pdf}
+%	\footnotesize{\caption{Experiments with fog}}
+	\caption{Experiments with fog}
+	\label{fig:expt_setup}
+\end{figure*}
+\fi
+
+\noindent $\blacksquare$ \textbf{Experimental Setup}: As a starting point we have a mmWave system that performs imaging via sequential scans. We compare the performance of our experimental setup (Fig.~\ref{fig:beam}(c)) with a laser ranger~\cite{laser_ranger} in both clear visibility conditions and in artifical fog generated using a fog machine~\cite{fog_machine}.
+In this experiment, we attempt to image two metal reflectors and a person in a garage (Fig.~\ref{fig:expt_setup}(b)). We mount the laser ranger on a stepper motor (Fig.~\ref{fig:expt_setup}(a)) that allows for a continuous 180\textdegree~ rotation to scan the room.
+
+% We have built the $60GHz$ mmWave imaging setup shown in Figure~\ref{fig:circuit_setup}. This setup deduces the location of reflectors. We are able to use this setup to image various reflectors inside a room. 
+
+
+%As an example, we show two metal reflectors and a human being imaged in Figure~\ref{fig:expt_setup}(a). 
+
+
+%We use a laser ranger~\cite{laser_ranger} mounted on a motor, as a proxy for \lidar. The motor is controlled using an Arduino that allows for a slow continuous 180\textdegree~motion of the laser ranger. This motorized setup is shown in Figure~\ref{fig:expt_setup}(d). Readings from the laser ranger are collected on a laptop over bluetooth. Figure~\ref{fig:expt_setup}(b) shows the obtained measurements of the two objects and one person in the room. We have removed the ranging measurements of the wall and other far away objects in the garage for clarity. Figure~\ref{fig:expt_setup}(c) shows the corresponding mmWave image for this setup. 
+
+%Finally we use a fog machine Figure~\ref{fig:expt_setup}(h) to fill the garage with fog. We try to image using both the laser ranger and our mmWave setup as the fog intensifies.
+
+
+
+
+
+\noindent $\blacksquare$ \textbf{Results}: Fig.~\ref{fig:expt_setup}(c) and \ref{fig:expt_setup}(d) show the imaging results of the laser ranger and our system respectively, in clear conditions. Fig.~\ref{fig:expt_setup}(g) and~\ref{fig:expt_setup}(h) show the corresponding results in presence of fog. The results indicate that in fog both the camera and the laser ranger fail to image the farthest object, while our system is hardly affected. 
+Further, as the fog intensifies, the laser ranger cannot image even the close by objects and simply traces a small circle around itself due to the severe scattering caused by fog. However, our system still shows minimal performance degradation even at high fog intensities. The images from the mmWave system are not very sharp since we are yet to implement the Image Enhancement algorithm described in Section 4.
+
+
+\noindent $\blacksquare$ \textbf{Video Demo}: We also include a video demo on our project website \cite{webpage}. The demo shows a mobile Roomba carrying a metal object to be imaged. In clear conditions we observe that both laser and our setup track the object's motion accurately. However, with fog, the laser ranger stops giving readings after the object moves beyond 1.7 m from the laser ranger, whereas our setup can still track the object precisely. There is some observable lag between the object's motion and the mmWave image, but this is primarily due to the time consuming sequential scans. We believe that after implementing our sublinear imaging algorithm using multi-armed beams, we can have a truly real-time imaging system with mmWave.
+
+
+%Figure~\ref{fig:expt_setup} (e-h) shows the effect of fog on camera, laser, and mmWave. As the fog intensifies, the laser ranger fails for the farthest object first. We have shown an intermediate case where only one of the three objects was not observable by the laser. When fog is extremely dense, the laser fails completely and traces a small circle around itself. mmWave images continues to be accurate and remains unaffected by the fog.
+

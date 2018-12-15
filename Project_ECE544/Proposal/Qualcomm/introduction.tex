@@ -1,0 +1,134 @@
+\section{Introduction}
+%Para1: Broad Problem
+%Why not solved yet?
+%Purpose: mmWave Imaging to autonomous vehicles
+%modality important for inclement weather
+%penetration etc.
+
+%Autonomous vehicles use multiple sensors that collectively provide information to create a reliable and accurate view of the environment they live in. Tremendous strides have been made both in obtaining information from these sensors and understanding the obtained data 
+
+%Autonomous vehicles use multiple sensors that collectively provide information to create a reliable and accurate view of the environment they live in. 
+
+\vspace{-15mm}
+
+This proposal attempts to bring mmWave imaging to the repertoire of existing sensing technologies in autonomous vehicles. Currently, autonomous vehicles obtain high resolution 3D images of the environment using \lidar~ and cameras, which together provide precise and accurate perception in most scenarios. 
+However, since both these sensors rely on optical frequencies, their image quality deteriorates in low visibility conditions such as fog, smog, and snowstorms [?, ?, ?]. 
+This limitation in severe weather conditions is going to be a major roadblock to achieving the vision of \textit{fully} autonomous vehicles [?, ?, ?].
+In contrast, mmWave frequencies offer more favorable propagation characteristics in such inclement weather, due to their better penetration properties. Additionally, the large bandwidth and the directional nature of mmWave transmission and reception, aids in obtaining accurate Time-of-Flight (ToF) and Direction-of-Arrival (DoA) estimates, making mmWave imaging feasible. 
+
+
+Car manufacturers today, such as Tesla, Honda~\cite{honda_sensing} and Ford~\cite{ford_acc}, are already using mmWave radars in their cars for adaptive cruise control~\cite{wiki_acc} and collision avoidance. However, these systems only perform unidirectional ranging to determine the distance from the vehicle in front.
+%Such systems typically comprise of a transmitter emitting a Frequency Modulated Continuous Wave (FMCW) signals using highly directional beams [\hl{check}] that reflect from objects in front of the car and are received back by a directional [\hl{check}] receiver.
+mmWave radars typically use directional beams to perform ranging along a specific direction (forward-facing in today's systems) using Frequency Modulated Continuous Wave (FMCW) sweeps. To extend this to imaging, such ranging information would need to be collected from all spatial directions and then combined to create a complete $360^\circ$ view of the environment. However, performing a naive sequential scan across all directions could incur prohibitively high latencies due to the minimum delay associated with each individual FMCW ramp (about 2 ms [] owing to the frequency locking delays of PLLs). This introduces latencies of the order of 100's of milliseconds, which gets further exacerbated when mmWave radios are equipped with narrower beams for increased angular resolution. Hence, in order to realize a practical mmWave imaging system, we need to design fast scanning algorithms that can generate images within a few ms. In addition to latency, we also need to address other practical challenges associated with mmWave imaging. mmWave signals experience 
+mirror-like specular reflections, causing only a few points on an object to reflect signals back to the receiver. This would lead to an incomplete image of the object. Further, 
+mmWave images are expected to have a low resolution due to bandwidth and wavelength limitations, and we need to compensate for these additional factors.
+
+
+
+\iffalse
+
+Specifically, we need to compensate for the mirror-like specular reflections [?] experienced by mmWave signals, which in turn lead to incomplete images of objects
+
+ that need to addressed are the mirror-like specular reflections [?] and the low resolution due to bandwidth and wavelength limitations. 
+
+
+
+Additionally, mmWave signals also experience mirror-like specular reflections [?]. This causes only a few points on an object to reflect back to the receiver leading to an incomplete image of the object. Also, mmWave images are expected to have a low resolution due to bandwidth and wavelength limitations.
+
+
+
+
+mmWave signals also experience the 
+
+
+
+Further, mmWave signals experience mirror-like specular reflections. This causes only a few points on an object to reflect back to the receiver leading to an incomplete image of the object. Also, mmWave images are expected to have a low resolution due to bandwidth and wavelength limitations.
+
+
+\fi
+
+\iffalse
+Imaging, on the hand, would require performing such ranging in all possible spatial directions. 
+
+
+This technology performs only unidirectional ranging to determine the distance from the vehicle in front. A transmitter emits frequency modulated continuous wave (FMCW) signals using highly directional beams [\hl{check}] that reflect from objects in front of the car and are received back by a directional [\hl{check}] receiver. However, imaging requires ranging in all directions. An individual FMCW ramp has a minimum delay of about $2 milliseconds$[\hl{check}]~\cite{} which is bottlenecked by the time required by the PLLs to latch on to each frequency in the sweep. This introduces latency of hundreds of milliseconds which gets exacerbated when using very narrow beams for better angular resolution, abating its effectiveness as an imaging system. Reducing this imaging latency is a primary challenge in mmWave imaging. Further, mmWave signals experience mirror-like specular reflections. This causes only a few points on an object to reflect back to the receiver leading to an incomplete image of the object. Also, mmWave images are expected to have a low resolution due to bandwidth and wavelength limitations. %We propose to solve these challenges through algorithmic innovations as follows. 
+\fi
+
+Scanning the entire 3D space sequentially to obtain an image is prohibitively expensive. To reduce this scanning latency, we have developed a multi-arm beam-forming algorithm that can obtain the image in sublinear time. The key observation enabling this algorithm is that mmWave signals travel along a small number of paths~\cite{sparse_1},~\cite{sparse_2}. This means that, at any given time instant, the space of possible directions from which signals reflect back to the receiver is sparse. Therefore, instead of sampling each direction separately we enable multi-armed beams to sample a few random directions together. Deriving motivation from compressive sensing algorithms we are able to obtain the directions of reflectors in logarithmic time. Further, enhancing the obtained image is possible by stitching together the FMCW bandwidths from three different mmWave bands---24GHz, 60GHz, and 77GHz.
+
+
+
+
+%We create multi-armed beams at the receiver to utilize this property. The active directions of the multi-armed beams are chosen such that in a few measurements we know the directions of the reflectors. 
+
+
+
+%Scanning the entire 3D space sequentially to obtain an image can be prohibitively slow. To reduce this scanning latency, we have developed a multi-arm beam-forming algorithm that can obtain the image in sublinear time. The key observation enabling this algorithm is that mmWave signals travel along a small number of paths~\cite{sparse_1},~\cite{sparse_2}. This means that, at any given time instant, the space of possible directions in which signals reflect back to the receiver is sparse. At any time instant, we allow the receiver to beam-form in a few randomly chosen directions. If we receive no reflection, all of those directions can be eliminated from the search space immediately. If we do receive a reflected signal, the reflector's direction is one of the enabled beam directions. This process is repeated for many random combinations. Finally, by matching which beams were active when a particular reflection was seen, it is possible to uniquely identify the direction of each reflector. With this algorithm, we can collect images with low latency. While fundamental limits ... resoluton, resoluouoin in fmcw can be increased by bandwidth  we build a higher virtual bandwidth by stiching togetehr ...
+
+%Implementing this system entails many engineering challenges beyond the algorithmic challenges in obtaining the image. 
+%To deal with specularity we accumulate imaging over time by accounting for the relative motion between the vehicle and the object 
+%We implement this system using various modules starting from an RF-frontend through velocity and range estimation module through image accumulation and resolution enhancement module. 
+%Practical implementation of this algorithm also includes other engineering challenges. Surrounding objects will most likely have a non-zero relative velocity which causes the received signal to be influenced by Doppler shifts. Due to motion and specularity of mmWave, different parts of the surrounding objects will become visible at different time instances. Therefore there will be differences in 
+%Building this system includes not only algorithmic challenges but also implementation/ engineering challenges. 
+%We are going to build this and create the hardware.
+
+
+
+
+
+
+
+
+%We have a way to recover the image without having to scan all the directions. We are going to leverage the sparsity of reflections
+%sublinear beamforming algorithm that recovers all the reflections
+
+
+
+%We use an omnidirectional transmitter and a directional receiver to implement our system. The frequency offset of the reflected FMCW signals indicates the ranging distance between the transceivers and the reflecting object. The angle of arrival can be determined from the direction the receiver was facing when it received the signal. To address the latency issue, we have designed a sublinear algorithm that obtains an image of the environment without the need to scan all directions sequentially. The key observation enabling this algorithm is that mmWave signals travel along a small number of paths~\cite{sparse_1},~\cite{sparse_2}. This means that, at any given time instant, the space of possible directions in which signals reflect back to the receiver is sparse. Therefore, if we obtain all the reflections using only a few multi-armed beams, we will still be able to match the signals to their corresponding direction. Using ranging and angle information, we can image the various reflecting points on the object. Finally we use Doppler and image accumulation to 
+
+%We have designed a sublinear algorithm which is able to recover an image without having to linearly scanning. Furthermore, due to specularity, the number of reflections we get from the environment is sparse. Using this, we can perform fast scanning without having to linearly scan the entire environment.
+
+%Implementing this system has both algorithmic as well as implementation challenges. Building a full image will require to perform velocity estimation using Doppler, handle specularity, perform FMCW stiching.
+
+Figure~\ref{fig:circuit_setup} shows our current implementation. We use 60GHz signals and FMCW sweeps, an omnidirectional transmitter and a directional receiver. While the current implementation uses mechanically steered horn antenna, the design of a phased array antenna has been completed and is being manufactured. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=3.5in]{../Photos/circuit_setup.jpg}
+	\caption{Current platform, circuit and setup}
+	\label{fig:circuit_setup}
+\end{figure}
+
+We compared the ranging estimates provided by our mmWave setup with that given by a laser ranger. We used three metallic objects in a large garage as mmWave targets to range. The observed accuracy was within a few centimeters of the laser values. We then introduced fog in the room using a fog machine. The laser ranger failed in moderate fog for the farthest object while mmWave showed no change in the measured range. As the fog density increased further, the laser ranger showed a range of just 0.2m measuring reflections from the dense fog.   
+
+We build upon our group's previous work on fast mmWave beam alignment~\cite{} where the main goal was communication between two mmWave devices. In the future, we also plan to extend our group's work on material identification~\cite{} to distinguish between various surrounding objects such as a human, a tree, or a car.
+
+
+
+\iffalse
+
+This failure of primary imaging sensors can be tolerated using mmWave signals, owing to their more favorable propagation characteristics in such inclement weather.
+
+
+In contrast, mmWave frequencies provide 
+
+
+
+ This failure of primary imaging sensors can be tolerated using mmWave signals, owing to their more favorable propagation characteristics in such inclement weather. Additionally, the large bandwidth and directional nature of mmWave transmission and reception aids in obtaining accurate time of flight and direction estimates, making mmWave imaging feasible.
+
+\fi
+
+\iffalse
+ Today's autonomous vehicles primarily use \lidar and cameras for , which together can provide highly accurate and reliable images of the environment in most scenarios. However, since both these sensors rely on optical frequencies, their image quality deteriorates in low visibility conditions such as fog, smog, and snowstorms.
+
+ 
+
+
+ obtain high resolution images of the environment using \lidar and cameras, which together can provide highly accurate and reliable 
+
+
+infor
+
+
+ provide \hl{reliable} information in most scenarios. However, since both these sensors rely on optical frequencies, their image quality deteriorates in low visibility conditions such as fog, smog, and snowstorms. 
+\fi

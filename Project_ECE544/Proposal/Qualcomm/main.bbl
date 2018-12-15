@@ -1,0 +1,156 @@
+\begin{thebibliography}{10}
+
+\bibitem{wiki:Lidar}
+Wikipedia contributors.
+\newblock Lidar --- wikipedia, 2018.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Lidar&oldid=820540368}.
+
+\bibitem{kohanbash_2016}
+Perception in smoke, dust or fog.
+\newblock
+  \url{http://robotsforroboticists.com/perception-in-smoke-dust-or-fog/}.
+
+\bibitem{yamauchi2010fusing}
+Brian Yamauchi.
+\newblock Fusing ultra-wideband radar and lidar for small ugv navigation in
+  all-weather conditions.
+\newblock In {\em Int. Soc. Opt. Eng.(SPIE)}, volume 7692, pages 1--10, 2010.
+
+\bibitem{barnard_2016}
+Michael Barnard.
+\newblock {T}esla and google disagree about {LIDAR}. {W}hich is right?
+\newblock {\em Clean Technica}, 2016.
+
+\bibitem{marshall_2017}
+Aarian Marshall.
+\newblock To let self-driving cars go anywhere, you must train them everywhere,
+  Oct 2017.
+\newblock
+  \url{https://www.wired.com/story/waymo-self-driving-michigan-testing/}.
+
+\bibitem{boudette_2016}
+Neal~E. Boudette.
+\newblock 5 things that give self-driving cars headaches.
+\newblock
+  \url{https://www.nytimes.com/interactive/2016/06/06/automobiles/autonomous-cars-problems.html},
+  Jun 2016.
+\newblock
+  \url{https://www.nytimes.com/interactive/2016/06/06/automobiles/autonomous-cars-problems.html}.
+
+\bibitem{tesla}
+Tesla.
+\newblock Tesla autopilot.
+\newblock \url{https://www.tesla.com/autopilot}.
+
+\bibitem{ford_acc}
+Ford.
+\newblock Adaptive cruise control and collision warning with brake support.
+\newblock {\em Ford Media Release}, 2012.
+\newblock
+  \url{https://web.archive.org/web/20131014210324/http://corporate.ford.com/doc/Adaptive_Cruise.pdf}.
+
+\bibitem{honda_sensing}
+Honda.
+\newblock Honda sensing.
+\newblock 2017.
+\newblock \url{https://automobiles.honda.com/sensing}.
+
+\bibitem{bmw}
+BMW.
+\newblock Bmw active driving assistant.
+\newblock
+  \url{https://www.bmwusa.com/vehicles/bmwi/bmw-i8/bmw-i8-features-and-specs.html}.
+
+\bibitem{wiki_acc}
+Autonomous cruise control system.
+\newblock {\em Wikipedia}.
+\newblock \url{https://en.wikipedia.org/wiki/Autonomous_cruise_control_system}.
+
+\bibitem{sweep_2ms_1}
+Analog Devices.
+\newblock {\em Direct Modulation/Fast Waveform Generating, 13 GHz, Fractional-N
+  Frequency Synthesizer}, 7 2014.
+\newblock Rev. E.
+
+\bibitem{sweep_2ms_2}
+Texas Instruments.
+\newblock {\em 15-GHz Wideband PLLatinum RF Synthesizer With Phase
+  Synchronization and JESD204B Support}, 8 2017.
+\newblock Rev. A.
+
+\bibitem{sparse_1}
+E.~Erkip. S.~Rangan, T. S.~Rappaport.
+\newblock Millimeterwave cellular wireless networks: Potentials and challenges.
+\newblock {\em Proceedings of the IEEE}, 2014.
+
+\bibitem{sparse_2}
+C.~R. Anderson and T.~S. Rappaport.
+\newblock Millimeterwave cellular wireless networks: Potentials and challenges.
+\newblock {\em In-Building Wideband Partition Loss Measurements at 2.5 and 60
+  GHz.}, 2004.
+
+\bibitem{hassanieh2012simple}
+Haitham Hassanieh, Piotr Indyk, Dina Katabi, and Eric Price.
+\newblock Simple and practical algorithm for sparse fourier transform.
+\newblock In {\em Proceedings of the twenty-third annual ACM-SIAM symposium on
+  Discrete Algorithms}, pages 1183--1194. Society for Industrial and Applied
+  Mathematics, 2012.
+
+\bibitem{hassanieh2012nearly}
+Haitham Hassanieh, Piotr Indyk, Dina Katabi, and Eric Price.
+\newblock Nearly optimal sparse fourier transform.
+\newblock In {\em Proceedings of the forty-fourth annual ACM symposium on
+  Theory of computing}, pages 563--578. ACM, 2012.
+
+\bibitem{ti_board}
+Texas Instruments.
+\newblock {\em IWR1443 Single-Chip 76- to 81-GHz mmWave Sensor}, 8 2017.
+\newblock Rev. A.
+
+\bibitem{hassanieh2017agile}
+Haitham Hassanieh, Omid Abari, and et~al.
+\newblock Agile millimeter wave networks with provable guarantees.
+\newblock {\em arXiv preprint arXiv:1706.06935}, 2017.
+
+\bibitem{hassanieh2014ghz}
+Haitham Hassanieh, Lixin Shi, Omid Abari, Ezzeldin Hamed, and Dina Katabi.
+\newblock Ghz-wide sensing and decoding using the sparse fourier transform.
+\newblock In {\em INFOCOM, 2014 Proceedings IEEE}, pages 2256--2264. IEEE,
+  2014.
+
+\bibitem{shen2016smartwatch}
+Sheng Shen, He~Wang, and Romit Roy~Choudhury.
+\newblock I am a smartwatch and i can track my user's arm.
+\newblock In {\em Proceedings of the 14th annual international conference on
+  Mobile systems, applications, and services}, pages 85--96. ACM, 2016.
+
+\bibitem{roy2014smartphone}
+Nirupam Roy, He~Wang, and Romit Roy~Choudhury.
+\newblock I am a smartphone and i can tell my user's walking direction.
+\newblock In {\em Proceedings of the 12th annual international conference on
+  Mobile systems, applications, and services}, pages 329--342. ACM, 2014.
+
+\bibitem{wang2012no}
+He~Wang, Souvik Sen, Ahmed Elgohary, Moustafa Farid, Moustafa Youssef, and
+  Romit~Roy Choudhury.
+\newblock No need to war-drive: Unsupervised indoor localization.
+\newblock In {\em Proceedings of the 10th international conference on Mobile
+  systems, applications, and services}, pages 197--210. ACM, 2012.
+
+\bibitem{laser_ranger}
+Leica.
+\newblock {\em DISTO D2}.
+\newblock \url{https://lasers.leica-geosystems.com/disto/d2}.
+
+\bibitem{fog_machine}
+1byone.
+\newblock Fog machine 400w.
+\newblock
+  \url{https://www.1byone.com/Stage-Lighting-Effects/Fog-Machines/O00QL-0047}.
+
+\bibitem{webpage}
+Demo.
+\newblock \url{http://synrg.csl.illinois.edu/QinF2018/}.
+
+\end{thebibliography}
