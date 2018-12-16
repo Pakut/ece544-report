@@ -3,5 +3,8 @@ The style file: ieee.bst
 Database file #1: egbib.bib
 Warning--entry type for "SAE" isn't style-file defined
 --line 8 of file egbib.bib
+Warning--entry type for "cityscapes" isn't style-file defined
+--line 56 of file egbib.bib
 Warning--to sort, need author or key in SAE
-(There were 2 warnings)
+Warning--to sort, need author or key in cityscapes
+(There were 4 warnings)

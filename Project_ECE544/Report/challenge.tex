@@ -5,21 +5,12 @@ Radar generates images of objects by localizing the cluster of point reflectors 
 
 \subsection{Related Work}
 
-Previous works have attempted to adapt the optical camera-oriented Convolutional Neural Network (CNN) to its microwave counterpart to classify single-object images from high-resolution 2D synthetic aperture radar (SAR) images. ~\cite{SAR_DL} ~\cite{ship_SAR} ~\cite{change_SAR} There has also been successful application of CNNs on recreating short range human body skeletons in 2D images and 3D spaces from radar images by tracking 14 key points. ~\cite{rfpose} ~\cite{rfpose3D} However, the scope of these application of neural networks on radar images are restricted to feature and single object classification. Besides, their radar image are either of super high resolution generated with airborne geographical sensing synthetic aperture radar or short-range where voxel resolution does not degrade too much. On the contrary, in our application of autonomous cars, we not only do not have as high resolution for long range, but required precisely traced boundary which contains the information of size, shape, and orientation of cars, bikes, and pedestrians. Therefore if we rely on fine grained feature detection that consists boundaries, we need very deep neural nets. Since CNN structures haven't be well investigated for radar signal and image, this task becomes extremely difficult.      
+Previous works have attempted to adapt the optical camera-oriented Convolutional Neural Network (CNN) to its microwave counterpart to classify single-object images from high-resolution 2D synthetic aperture radar (SAR) images ~\cite{SAR_DL, ship_SAR, change_SAR}. There has also been successful application of CNNs on recreating short range human body skeletons in 2D images and 3D spaces from radar images by tracking 14 key points ~\cite{rfpose, rfpose3D}. However, the scope of these application of neural networks on radar images are restricted to feature and single object classification. Besides, their radar image are either of super high resolution generated with airborne geographical sensing synthetic aperture radar or short-range where voxel resolution does not degrade too much. On the contrary, in our application of autonomous cars, we not only do not have as high resolution for long range, but required precisely traced boundary which contains the information of size, shape, and orientation of cars, bikes, and pedestrians. Therefore if we rely on fine grained feature detection that consists boundaries, we need very deep neural nets. Since CNN structures haven't be well investigated for radar signal and image, this task becomes extremely difficult. The emerge of GAN and cGAN provide a great opportunity to ...      
 
 \subsection{Dataset Availability}
-Once the network is setup, it needs training data -i.e., it needs many labeled exp
-Dataset
-	Variation between systems 
-	Experiment
-	Processing
+Once we chose cGAN as the network model, we face the problem of dataset availability. Ideally, we should provide a large number of radar images of scenes that self-driving cars would typically experience, as well as precisely depicted object boundary and orientation in the images. However, we were not able to find any public dataset of 3D or even 2D radar images especially street views for the self-driving car application. Also in contrast to the standard images of cameras and LiDARs, different radar imaging system and image processing algorithms have non-negligible variation in output images. Hence we were initially forced to build our own dataset of 3D radar images with our custom-built 60GHz imaging system. However, since our system design compensates frame rate for cost and resolution, continuously collecting 500 frames will take at least 41.67 hours. We also have to wisely pick a good number of locations to mimic various scenes autonomous cars would actually face. Last but not least, for the ground truth dataset we have to obtain perfectly synced camera images or LiDAR point clouds with the radar. All of these overheads add up to a huge roadblock at the starting line of our project. Instead of building dataset from real radar images, we try to leverage well-developed EM simulation tools and the exquisitely measured waveform of our frequency modulated continuous wave (FMCW) radar to simulate radar reflections from objects and feed the simulated radar signal to synthesize radar images. We also try to compose radar reflection environment as similar to actual road environment as possible, so that we recover scenes from a well-known camera street view datasets called Cityscapes ~\cite{cityscapes}.   
 
-\subsection{3D Complexity}
-3.3D
-3D CNN % rf 3D pose	
-3D GAN size complexity
-
-
-\subsection{Evaluation Metrics}
-
-
+%\subsection{3D Complexity}
+%3.3D
+%3D CNN % rf 3D pose	
+%3D GAN size complexity

@@ -1,7 +1,10 @@
-\begin{thebibliography}{1}\itemsep=-1pt
+\begin{thebibliography}{10}\itemsep=-1pt
 
 \bibitem{SAE}
 Automated vehicles for safety.
+
+\bibitem{cityscapes}
+Cityscapes dataset.
 
 \bibitem{SAR_DL}
 S.~Chen and H.~Wang.
