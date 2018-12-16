@@ -1,11 +1,26 @@
 \subsection{Dataset Generation}
 Challenge of unavailable radar dataset.
 
-\subsubsection{Groundtruth}
-Mask R-CNN 
+Experiment to collect radar images size time umbiguity
 
-\subsubsection{Input}
-Radar image simulation
+Simulation with EM 
+
+3D % search for 3D GAN
+
+2D
+	Mask R-CNN
+		input: radar image
+		groundtruth: mask
+	pros: large dataset with car truck human 
+	cons: No 3D info, no specularity
+	3D CAD
+		input: contour
+		groundtruth:
+	pros: small dataset, single element 
+	cons: 3D shape info, specularity 
+
+
+Evaluate the simulation with EM simulation Feko and experimental results.
 
 \iffalse
 Millimeter radars transmitter shines a radar waveform, which gets reflected by objects, and the reflected waveform will be received by the receiver. Comparing the transmitted and received radar signal, we can measure Time-of-Flight (ToF), which suggests the round-trip distance between radar and reflectors. Besides, with an array of radar receivers, we can also extract the Direction-of-Arrival (DoA) of the reflected waves. Knowing the distance and angle of reflectors in the space, we can localize them in a polar coordinate. 
