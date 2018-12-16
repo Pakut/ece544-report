@@ -1,6 +1,7 @@
 \backcite {snow}{{1}{1}{section.1}}
 \backcite {SAE}{{1}{1}{section.1}}
 \backcite {mmWave_SAR}{{1}{1}{section.1}}
+<<<<<<< HEAD
 \backcite {SAR_DL}{{2}{2.2}{subsection.2.2}}
 \backcite {ship_SAR}{{2}{2.2}{subsection.2.2}}
 \backcite {change_SAR}{{2}{2.2}{subsection.2.2}}
@@ -15,3 +16,9 @@
 \backcite {unet}{{3}{3}{equation.3.2}}
 \backcite {pix2pix}{{3}{3}{equation.3.2}}
 \backcite {pix2pix}{{3}{3}{equation.3.2}}
+=======
+\backcite {SAR_DL, ship_SAR, change_SAR}{{2}{2.2}{subsection.2.2}}
+\backcite {rfpose, rfpose3D}{{2}{2.2}{subsection.2.2}}
+\backcite {cityscapes}{{2}{2.3}{subsection.2.3}}
+\backcite {hams}{{2}{3}{section.3}}
+>>>>>>> 53193bdb8eb54a032b346e8d02da293c8d058325

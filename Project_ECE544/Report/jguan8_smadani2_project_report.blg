@@ -9,7 +9,10 @@ The style file: ieee.bst
 Database file #1: egbib.bib
 Warning--entry type for "SAE" isn't style-file defined
 --line 8 of file egbib.bib
+Warning--entry type for "cityscapes" isn't style-file defined
+--line 56 of file egbib.bib
 Warning--to sort, need author or key in SAE
+<<<<<<< HEAD
 You've used 17 entries,
             2120 wiz_defined-function locations,
             583 strings with 6963 characters,
@@ -52,3 +55,7 @@ while$ -- 41
 width$ -- 19
 write$ -- 172
 (There was 1 error message)
+=======
+Warning--to sort, need author or key in cityscapes
+(There were 4 warnings)
+>>>>>>> 53193bdb8eb54a032b346e8d02da293c8d058325
