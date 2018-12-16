@@ -1,8 +1,50 @@
 \begin{thebibliography}{1}\itemsep=-1pt
 
+\bibitem{SAE}
+Automated vehicles for safety.
+
+\bibitem{SAR_DL}
+S.~Chen and H.~Wang.
+\newblock Sar target recognition based on deep learning.
+\newblock {\em International Conference on Data Science and Advanced Analytics,
+  DSAA}, 2014.
+
+\bibitem{change_SAR}
+M.~Gong, J.~Zhao, J.~Liu, Q.~Miao, and L.~Jiao.
+\newblock Change detection in synthetic aperture radar images based on deep
+  neural networks.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems ,
+  DSAA}, 2016.
+
+\bibitem{mmWave_SAR}
+B.~Mamandipoor, G.~Malysa, A.~Arbabian, U.~Madhow, and K.~Noujeim.
+\newblock 60 ghz synthetic aperture radar for short-range imaging: Theory and
+  experiments.
+\newblock {\em Asilomar Conference on Signals, Systems and Computers}, 2014.
+
 \bibitem{hams}
-I.~M. H. K. A. V. V. P. R.~B. A.~U.~Nambi, S.~Bannur and B.~Raman.
+A.~Nambi, S.~Bannur, I.~Mehta, H.~Kalra, A.~Virmani, V.~Padmandabhan,
+  R.~Bhandari, and B.~Raman.
 \newblock Demo: Hams: Driver and driving monitoring using a smartphone.
 \newblock {\em ACM MobiCom}, 2018.
+
+\bibitem{ship_SAR}
+C.~Schwegmann, W.~Kleynhans, B.~Salmon, L.~Mdakane, and R.~Meyer.
+\newblock Very deep learning for ship discrimination in synthetic aperture
+  radar imagery.
+\newblock {\em IEEE International Geoscience and Remote Sensing Symposium,
+  IGARSS}, 2016.
+
+\bibitem{rfpose}
+M.~Zhao, T.~Li, M.~Alsheikh, Y.~Tian, H.~Zhao, A.~Torralba, and D.~Katabi.
+\newblock Trhough-wall human pose estimation using radio signals.
+\newblock {\em IEEE Conference on Computer Vision and Pattern Recognition,
+  CVPR}, 2018.
+
+\bibitem{rfpose3D}
+M.~Zhao, Y.~Tian, H.~Zhao, M.~Alsheikh, T.~Li, R.~Hristov, Z.~Kabelac,
+  D.~Katabi, and A.~Torralba.
+\newblock Rf-based 3d skeletons.
+\newblock {\em SIGCOMM}, 2018.
 
 \end{thebibliography}
