@@ -16,11 +16,14 @@ M.~Gong, J.~Zhao, J.~Liu, Q.~Miao, and L.~Jiao.
 \newblock {\em IEEE Transactions on Neural Networks and Learning Systems ,
   DSAA}, 2016.
 
+<<<<<<< HEAD
+=======
 \bibitem{snow}
 W.~Jones.
 \newblock Keeping cars from crashing.
 \newblock {\em IEEE Spectrum}, 2001.
 
+>>>>>>> 330065aa07b6b3d5312ebd03bb3832a23dbfe392
 \bibitem{mmWave_SAR}
 B.~Mamandipoor, G.~Malysa, A.~Arbabian, U.~Madhow, and K.~Noujeim.
 \newblock 60 ghz synthetic aperture radar for short-range imaging: Theory and

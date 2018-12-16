@@ -2,6 +2,10 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: jguan8_smadani2_proje
 The style file: ieee.bst
 Database file #1: egbib.bib
 Warning--entry type for "SAE" isn't style-file defined
+<<<<<<< HEAD
+--line 1 of file egbib.bib
+=======
 --line 9 of file egbib.bib
+>>>>>>> 330065aa07b6b3d5312ebd03bb3832a23dbfe392
 Warning--to sort, need author or key in SAE
 (There were 2 warnings)
