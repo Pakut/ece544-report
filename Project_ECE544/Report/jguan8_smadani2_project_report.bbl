@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}\itemsep=-1pt
+\begin{thebibliography}{10}\itemsep=-1pt
 
 \bibitem{SAE}
 Automated vehicles for safety.
@@ -15,6 +15,18 @@ M.~Gong, J.~Zhao, J.~Liu, Q.~Miao, and L.~Jiao.
   neural networks.
 \newblock {\em IEEE Transactions on Neural Networks and Learning Systems ,
   DSAA}, 2016.
+
+\bibitem{GAN}
+I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
+  A.~Courville, and Y.~Bengio.
+\newblock Generative adversarial nets.
+\newblock In {\em Advances in neural information processing systems}, pages
+  2672--2680, 2014.
+
+\bibitem{pix2pix}
+P.~Isola, J.-Y. Zhu, T.~Zhou, and A.~A. Efros.
+\newblock Image-to-image translation with conditional adversarial networks.
+\newblock {\em arXiv preprint}, 2017.
 
 \bibitem{snow}
 W.~Jones.
@@ -33,12 +45,47 @@ A.~Nambi, S.~Bannur, I.~Mehta, H.~Kalra, A.~Virmani, V.~Padmandabhan,
 \newblock Demo: Hams: Driver and driving monitoring using a smartphone.
 \newblock {\em ACM MobiCom}, 2018.
 
+\bibitem{text2pix}
+S.~Reed, Z.~Akata, X.~Yan, L.~Logeswaran, B.~Schiele, and H.~Lee.
+\newblock Generative adversarial text to image synthesis.
+\newblock {\em arXiv preprint arXiv:1605.05396}, 2016.
+
+\bibitem{unet}
+O.~Ronneberger, P.~Fischer, and T.~Brox.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock In {\em International Conference on Medical image computing and
+  computer-assisted intervention}, pages 234--241. Springer, 2015.
+
 \bibitem{ship_SAR}
 C.~Schwegmann, W.~Kleynhans, B.~Salmon, L.~Mdakane, and R.~Meyer.
 \newblock Very deep learning for ship discrimination in synthetic aperture
   radar imagery.
 \newblock {\em IEEE International Geoscience and Remote Sensing Symposium,
   IGARSS}, 2016.
+
+\bibitem{cGANberkeley}
+T.-C. Wang, M.-Y. Liu, J.-Y. Zhu, A.~Tao, J.~Kautz, and B.~Catanzaro.
+\newblock High-resolution image synthesis and semantic manipulation with
+  conditional gans.
+\newblock {\em arXiv preprint arXiv:1711.11585}, 2017.
+
+\bibitem{deraning}
+H.~Zhang, V.~Sindagi, and V.~M. Patel.
+\newblock Image de-raining using a conditional generative adversarial network.
+\newblock {\em arXiv preprint arXiv:1701.05957}, 2017.
+
+\bibitem{text2pix2}
+H.~Zhang, T.~Xu, H.~Li, S.~Zhang, X.~Huang, X.~Wang, and D.~Metaxas.
+\newblock Stackgan: Text to photo-realistic image synthesis with stacked
+  generative adversarial networks.
+\newblock {\em arXiv preprint}, 2017.
+
+\bibitem{TV-GAN}
+T.~Zhang, A.~Wiliem, S.~Yang, and B.~Lovell.
+\newblock Tv-gan: Generative adversarial network based thermal to visible face
+  recognition.
+\newblock In {\em 2018 International Conference on Biometrics (ICB)}, pages
+  174--181. IEEE, 2018.
 
 \bibitem{rfpose}
 M.~Zhao, T.~Li, M.~Alsheikh, Y.~Tian, H.~Zhao, A.~Torralba, and D.~Katabi.
