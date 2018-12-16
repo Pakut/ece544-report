@@ -10,9 +10,11 @@ We are trying to use cGAN to generate higher resolution images from low resoluti
 
 cGAN:
 	Why cGAN:
-	1. GAN is tranfering images from 1 domain to another, some application 
-	2. There are similar application using GAN: Vankat's work of using face recognition of thermal images to train camera images under low illumination sharp boundaries orientation of faces.
-	3. L1 does give sharp boundary as wanted. We are not sure what would be good loss function.
+	
+	GAN is tranfering images from 1 domain to another, some application 
+	
+	Generative Adverserial Networks (or GANs) have been widely used to generate images [cite some stuff here] and fill in missing parts of data. In our case, we are looking to generate images with accurate boundaries using low resolution images with missing parts as input. Conditional GANs have already proven successful in similar settings, such as in \cite{hams}, where the authors have used thermal images under low light conditions where there some parts of the image are missing to retrieve the human face boundaries and estimate its orientation. Another motivation behind using GANs is that generic loss functions such as the $L_2$ and $L_1$ (i.e. A loss function that tries to minimize the Euclidean or $L_1$ distance between the input and the output) which are the de facto standard loss function for restoring images render blurry images, which are not suitable for our application. On the other hand, we try to motivate the loss in GAN to learn to focus on the boundaries, by designing the ground to contain information mostly about the boundary of objects, as we shall see in the dataset section
+	CGANs take as input a 
 	Transition: cGAN has input, groundtruth, G, D
 	
 	Input: Low resolution radar images, because there is no available public dataset of mmWave radar images, and collecting a big enough dataset by ourselves is not possible. We synthesized radar images. This heat-map is fed into the network. 
