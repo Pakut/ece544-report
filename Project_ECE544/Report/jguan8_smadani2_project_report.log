@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  16 DEC 2018 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  16 DEC 2018 15:16
 entering extended mode
 **./jguan8_smadani2_project_report.tex
 (jguan8_smadani2_project_report.tex
@@ -391,87 +391,44 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) (intro.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-) (challenge.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+) (challenge.tex [1{C:/Users/jguan/AppData/Local/MiKTeX/2.9/pdftex/config/pdfte
+x.map}
 
 
-LaTeX Warning: Citation `rfpose' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation `rfpose3D' on page 1 undefined on input line 11.
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 10--12
-\OT1/ptm/m/n/10 strates Con-vo-lu-tional Neu-ral Net-work (CNN) that can
- []
-
-) (method.tex [1{C:/Users/jguan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.m
-ap}
-
-
-]
-
-! LaTeX Error: Illegal character in array arg.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \begin{array}{1}
-                     
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Illegal character in array arg.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \begin{array}{1}
-                     
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+]) (method.tex
 Overfull \hbox (106.44678pt too wide) detected at line 30
 []
  []
 
-) (cGAN.tex) (dataset.tex [2]) (exp.tex) (conclusion.tex)
-(jguan8_smadani2_project_report.bbl (jguan8_smadani2_project_report.brf)
+[2]) (cGAN.tex) (dataset.tex) (exp.tex
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
+)
+(conclusion.tex) (jguan8_smadani2_project_report.bbl
+(jguan8_smadani2_project_report.brf)
 \tf@brf=\write3
 \openout3 = `jguan8_smadani2_project_report.brf'.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
-
-[3
-
-]
+ [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (jguan8_smadani2_project_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `jguan8_smadani2_project_report.brf' has not 
 changed.
-(rerunfilecheck)             Checksum: 22578816DBBBC9DC67D6F361A26CA98B;117.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: A3ECEA3E5B53C54823C2B641B0F6D29F;391.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
- 6393 strings out of 492970
- 94764 string characters out of 3126593
- 189879 words of memory out of 3000000
- 10141 multiletter control sequences out of 15000+200000
- 24844 words of font info for 61 fonts, out of 3000000 for 9000
+ 6437 strings out of 492970
+ 95256 string characters out of 3126593
+ 190323 words of memory out of 3000000
+ 10173 multiletter control sequences out of 15000+200000
+ 23218 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,27p,1708b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,27p,1704b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
@@ -486,9 +443,9 @@ ourier/ucrr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (3 pages, 122632 bytes).
+Output written on jguan8_smadani2_project_report.pdf (3 pages, 137444 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

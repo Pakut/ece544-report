@@ -13,7 +13,7 @@ Generative Adverserial Networks (or GANs) have been widely used to generate imag
 	
 We have adapted the CGAN from [cite pix2pix] to train and test our model. Denoting the input, ground truth, and noise by $x$, $y$, and $z$ respectively, we can write the objective for a conditional GAN where the Generator and discriminator are $G$ and $D$ as
 \begin{equation}
-\begin{array}{1}
+\begin{array}{l}
 \min_G \max_D \mathcal{V}_{CGAN}(D,G) = \mathbb{E}_{x}(\log(D(x|y)))\\
 \, \, \, \,+ \, \, \, \mathbb{E}_{z}(\log(1-D(x,G(x|z)))).
 \end{array}
@@ -22,7 +22,7 @@ Here, $D()$ is the score that the discriminator gives for a certain input, and $
 
 It is suggested in [pix2pix] that we can combine generator's task of trying to get a high score from discriminator with a pre-determined loss function, such as $L_1$. That is, one could change the objective to be
 \[
-\begin{array}{1}
+\begin{array}{l}
 \min_G \max_D \mathcal{V}_{CGAN}(D,G) =
 \mathbb{E}_{x}(\log(D(x|y))) \, \, \, \,+ \, \, \, \mathbb{E}_{z}(\log(1-D(x,G(x|z))))\\
  \quad \, \, \, \, \, \, \, \, \, \, \, \, + \, \, \, \lambda \, \, \, \mathcal{L}_{L_1}(G(x,z)).
