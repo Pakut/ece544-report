@@ -1,4 +1,8 @@
 \subsection{Dataset Generation}
+We were not able to find any public dataset of 3D or even 2D radar images especially street views for the self-driving car application. Also unlike cameras and LiDARs that generate standard images, different radar imaging system and image processing algorithms can lead to non-negligible variation in radar images. Hence we were initially forced to build our own dataset of 3D radar images with our custom-built 60GHz imaging system. However, since our system design compensates frame rate for cost and resolution, continuously collecting 500 frames will take at least 41.67 hours. We also have to wisely pick a good number of locations to mimic various scenes autonomous cars would actually face. Last but not in additional to the radar images as the input to cGAN, we also have to obtain another perfectly synced camera or LiDAR dataset as the ground truth of object boundary.  
+
+ at 500 well selected locations , which becomes a huge overhead. Moreover, 
+
 Once we have designed our Unlike the digital camera, imaging radar less common, no dataset available .
 Since there is no
 
