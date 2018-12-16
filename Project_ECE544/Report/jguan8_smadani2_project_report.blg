@@ -1,67 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: jguan8_smadani2_project_report.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: jguan8_smadani2_project_report.aux
 The style file: ieee.bst
 Database file #1: egbib.bib
-Name 1 in "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" has a comma at the end for entry hams
-while executing---line 1073 of file ieee.bst
-Too many commas in name 1 of "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" for entry hams
-while executing---line 1073 of file ieee.bst
-Too many commas in name 1 of "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" for entry hams
-while executing---line 1073 of file ieee.bst
-Too many commas in name 1 of "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" for entry hams
-while executing---line 1073 of file ieee.bst
-Too many commas in name 1 of "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" for entry hams
-while executing---line 1073 of file ieee.bst
-Name 1 in "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" has a comma at the end for entry hams
-while executing---line 1116 of file ieee.bst
-Too many commas in name 1 of "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" for entry hams
-while executing---line 1116 of file ieee.bst
-Too many commas in name 1 of "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" for entry hams
-while executing---line 1116 of file ieee.bst
-Too many commas in name 1 of "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" for entry hams
-while executing---line 1116 of file ieee.bst
-Too many commas in name 1 of "A. U. Nambi, S. Bannur, I. Mehta, H. Kalra, A. Virmani, V. Padmandabhan, R. Bhandari, and B. Raman" for entry hams
-while executing---line 1116 of file ieee.bst
-You've used 1 entry,
-            2120 wiz_defined-function locations,
-            503 strings with 3943 characters,
-and the built_in function-call counts, 261 in all, are:
-= -- 23
-> -- 13
-< -- 0
-+ -- 5
-- -- 4
-* -- 15
-:= -- 54
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 5
-chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 10
-empty$ -- 18
-format.name$ -- 4
-if$ -- 49
-int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 5
-preamble$ -- 1
-purify$ -- 4
-quote$ -- 0
-skip$ -- 8
-stack$ -- 0
-substring$ -- 5
-swap$ -- 1
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 12
-(There were 10 error messages)
+Warning--entry type for "SAE" isn't style-file defined
+--line 1 of file egbib.bib
+Warning--to sort, need author or key in SAE
+(There were 2 warnings)
