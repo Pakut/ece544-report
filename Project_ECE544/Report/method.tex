@@ -11,8 +11,9 @@ We are trying to use cGAN to generate higher resolution images from low resoluti
 cGAN:
 	Why cGAN:
 	1. GAN is tranfering images from 1 domain to another, some application 
-	Generative Adverserial Networks (or GANs) have been widely used to generate images. In our example, we are looking to an images with accurate boundaries using low resolution images as input. GANs have already been successful in similar settings, such as in \cite{rf3dpose}, where the authors have used thermal images under low light conditions to retrieve the human face boundaries and estimate is orientation. The other motivation behind using GANs is that $L_1$ and $L_2$ losses do not 
-	3. L1 does give sharp boundary as wanted. We are not sure what would be good loss function.
+	Generative Adverserial Networks (or GANs) have been widely used to generate images [cite some stuff here]. In our case, we are looking to generate images with accurate boundaries using low resolution images as input. Conditional GANs have already proven successful in similar settings, such as in \cite{hams}, where the authors have used thermal images under low light conditions to retrieve the human face boundaries and estimate is orientation. The other motivation behind using GANs is that generic loss functions such as the $L_1$ and $L_2$ (i.e. A loss function that tries to minimize the Euclidean or $L_1$ distance between the input and the output). )render blurry images, which are not suitable for our application. 
+	
+	CGANs take as input a 
 	Transition: cGAN has input, groundtruth, G, D
 	
 	Input: Low resolution radar images, because there is no available public dataset of mmWave radar images, and collecting a big enough dataset by ourselves is not possible. We synthesized radar images. This heat-map is fed into the network. 
