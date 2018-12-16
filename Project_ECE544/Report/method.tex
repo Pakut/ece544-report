@@ -2,3 +2,28 @@
 \textcolor{red}{
 Describe the overall method on how you solve the proposed problem, and a bit of original derivation that has some relevance to what you’re trying to accomplish
 }
+
+Problem statement: low blured images no boundary can be seen, specularity causes missing parts, no availbale dataset, 4D CNN NN complex.
+
+Overview 3D, in the method, we say that we start with 2D version, and based on that build 3D. 
+We are trying to use cGAN to generate higher resolution images from low resolution radar images, which should have a sharp and accurate boundary of the object. Also, the missing parts due to specualarity of reflection need to be feel up.  S
+
+cGAN:
+	Why cGAN:
+	1. GAN is tranfering images from 1 domain to another, some application 
+	2. There are similar application using GAN: Vankat's work of using face recognition of thermal images to train camera images under low illumination sharp boundaries orientation of faces.
+	3. L1 does give sharp boundary as wanted. We are not sure what would be good loss function.
+	Transition: cGAN has input, groundtruth, G, D
+	
+	Input: Low resolution radar images, because there is no available public dataset of mmWave radar images, and collecting a big enough dataset by ourselves is not possible. We synthesized radar images. This heat-map is fed into the network. 
+	Groundtruth: 
+	1. Size of 3D 	which makes the training phase very slow even when using GPUs. 
+	2. 2D:
+	3. 3D
+
+
+The input to our problem is pre-processed radar data. First, using the raw data from the antenna array, a coarse heat-map of objects are generated. After some further processing. 
+
+Why not raw data: (Goes to detail of Dataset jayden)
+Radar imaging processing algorithms is a well establish feild for 70 years. and there is fruitless to try and learn them using machine learning.
+So instead of  The reason why we did not choose the raw data as input is twofold. 
