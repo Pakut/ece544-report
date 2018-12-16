@@ -11,7 +11,7 @@ We are trying to use cGAN to generate higher resolution images from low resoluti
 cGAN:
 	Why cGAN:
 	1. GAN is tranfering images from 1 domain to another, some application 
-	2. There are similar application using GAN: Vankat's work of using face recognition of thermal images to train camera images under low illumination sharp boundaries orientation of faces.
+	Generative Adverserial Networks (or GANs) have been widely used to generate images. In our example, we are looking to an images with accurate boundaries using low resolution images as input. GANs have already been successful in similar settings, such as in \cite{rf3dpose}, where the authors have used thermal images under low light conditions to retrieve the human face boundaries and estimate is orientation. The other motivation behind using GANs is that $L_1$ and $L_2$ losses do not 
 	3. L1 does give sharp boundary as wanted. We are not sure what would be good loss function.
 	Transition: cGAN has input, groundtruth, G, D
 	

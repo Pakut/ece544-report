@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.15)  15 DEC 2018 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.15)  15 DEC 2018 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -378,7 +378,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-) (./cGAN.tex) (./dataset.tex
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+])
+(./cGAN.tex) (./dataset.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 ) (./exp.tex) (./conclusion.tex)
@@ -387,10 +391,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 \openout3 = `jguan8_smadani2_project_report.brf'.
 
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -415,12 +415,12 @@ Here is how much of TeX's memory you used:
  9606 multiletter control sequences out of 15000+600000
  20383 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 34i,9n,26p,1232b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,9n,26p,1232b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (2 pages, 43741 bytes).
+Output written on jguan8_smadani2_project_report.pdf (2 pages, 45903 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
