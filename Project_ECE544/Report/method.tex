@@ -2,3 +2,6 @@
 \textcolor{red}{
 Describe the overall method on how you solve the proposed problem, and a bit of original derivation that has some relevance to what you’re trying to accomplish
 }
+
+Problem statement:
+The input to our problem is pre-processed radar data. First, using the raw data from the antenna array, a coarse heat-map of objects are generated. After some further processing (e.g. eliminating the effect of direct path between the transmitter and the receiver), This heat-map is fed into the network. The reason why we did not choose the raw data as input is twofold. First, raw radar data has a very large size, which makes the training phase very slow even when using GPUs. Second, we already know the useful information that can be derived from the raw data, and there is fruitless to try and learn them using machine learning.
