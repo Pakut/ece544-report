@@ -83,7 +83,7 @@ The first experiment we ran was using blurred images as input. We took the image
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
-			(b) detected cars \cite{rcnn} \\
+			(a) detected cars \cite{rcnn} \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
@@ -92,7 +92,7 @@ The first experiment we ran was using blurred images as input. We took the image
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/145_real_A}}\\ 
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/171_real_A}}\\
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/207_real_A}}\\ 
-			(d) input heat-map \\
+			(b) input heat-map \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
@@ -110,7 +110,7 @@ The first experiment we ran was using blurred images as input. We took the image
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/145_fake_B}}\\ 
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/171_fake_B}}\\
 			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/207_fake_B}}\\ 
-			(e) generated image \\
+			(d) generated image \\
 		\end{tabular}
 	\end{tabularx}	
 	\caption{Some results from the second experiment. From top to bottom: 1) The car's boundary, shape and orientation has fully been recovered. The gray-scale colors do not much. However, colors are of little importance in our application. 2) The orientation of the middle car is reversed. As we shall see in the next section, 180 degrees of ambiguity can easily be fixed using the Doppler effect. 3) Although there is high reflection from the middle car, its boundary has correctly been identified as a small distant car. 4) Same as 3. Also the orientation of car on the side has been correctly estimated. 5) The generated image does not make sense. This is most likely because the sides of cars were rarely included in the training images provided to the network. }\label{fig2}
