@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.15)  17 DEC 2018 01:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.15)  17 DEC 2018 01:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,50 +708,67 @@ Overfull \hbox (15.65393pt too wide) in alignment at lines 76--76
 [][][][][] 
  []
 
-) (./conclusion.tex) (./jguan8_smadani2_project_report.bbl
+) (./conclusion.tex) [4] (./jguan8_smadani2_project_report.bbl
 (./jguan8_smadani2_project_report.brf)
 \tf@brf=\write3
 \openout3 = `jguan8_smadani2_project_report.brf'.
 
- [4]
+
 Underfull \hbox (badness 3492) in paragraph at lines 35--35
 []\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
  []
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
- [5 <./figure/126_real_B.png (PNG copy)> <./figure/126_real_A.png (PNG copy)> <
-./figure/126_fake_B.png (PNG copy)>] [6 <./figure/cologne_000011_000019_leftImg
-8bit.png> <./figure/cologne_000013_000019_leftImg8bit.png> <./figure/dusseldorf
-_000008_000019_leftImg8bit.png> <./figure/dusseldorf_000040_000019_leftImg8bit.
-png> <./figure/dusseldorf_000088_000019_leftImg8bit.png> <./figure/cologne_0000
-11_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/cologne_000013_000019_lef
-tImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_000008_000019_leftImg8bit_m
-ask_rcnn_out_py.jpg> <./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_o
-ut_py.jpg> <./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg>
- <./figure/10_real_B.png (PNG copy)> <./figure/12_real_B.png (PNG copy)> <./fig
-ure/145_real_B.png (PNG copy)> <./figure/171_real_B.png (PNG copy)> <./figure/2
-07_real_B.png (PNG copy)> <./figure/10_real_A.png (PNG copy)> <./figure/12_real
-_A.png (PNG copy)> <./figure/145_real_A.png (PNG copy)> <./figure/171_real_A.pn
-g (PNG copy)> <./figure/207_real_A.png (PNG copy)> <./figure/10_fake_B.png (PNG
- copy)> <./figure/12_fake_B.png (PNG copy)> <./figure/145_fake_B.png (PNG copy)
-> <./figure/171_fake_B.png (PNG copy)> <./figure/207_fake_B.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+[5 <./figure/126_real_B.png (PNG copy)> <./figure/126_real_A.png (PNG copy)> <.
+/figure/126_fake_B.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./jguan8_smadani2_project_report.aux)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./figure/cologne_000011_000019_leftImg8bit.png> <./figure/cologne_000013_0
+00019_leftImg8bit.png> <./figure/dusseldorf_000008_000019_leftImg8bit.png> <./f
+igure/dusseldorf_000040_000019_leftImg8bit.png> <./figure/dusseldorf_000088_000
+019_leftImg8bit.png> <./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_
+py.jpg> <./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./fi
+gure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusse
+ldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_0000
+88_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/10_real_B.png (PNG copy)>
+ <./figure/12_real_B.png (PNG copy)> <./figure/145_real_B.png (PNG copy)> <./fi
+gure/171_real_B.png (PNG copy)> <./figure/207_real_B.png (PNG copy)> <./figure/
+10_real_A.png (PNG copy)> <./figure/12_real_A.png (PNG copy)> <./figure/145_rea
+l_A.png (PNG copy)> <./figure/171_real_A.png (PNG copy)> <./figure/207_real_A.p
+ng (PNG copy)> <./figure/10_fake_B.png (PNG copy)> <./figure/12_fake_B.png (PNG
+ copy)> <./figure/145_fake_B.png (PNG copy)> <./figure/171_fake_B.png (PNG copy
+)> <./figure/207_fake_B.png (PNG copy)>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+ [7
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+ (./jguan8_smadani2_project_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
-Package rerunfilecheck Info: File `jguan8_smadani2_project_report.brf' has not 
-changed.
-(rerunfilecheck)             Checksum: 597CE2F247F15DC3E20DA1AA804C2600;926.
+
+
+Package rerunfilecheck Warning: File `jguan8_smadani2_project_report.brf' has c
+hanged.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `jguan8_smadani2_project_report.brf'
+:
+(rerunfilecheck)             Before: F253548844184C03F651EAC274EFF58F;926
+(rerunfilecheck)             After:  597CE2F247F15DC3E20DA1AA804C2600;926.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 8025 strings out of 494953
- 122461 string characters out of 6180976
- 216858 words of memory out of 5000000
+ 8026 strings out of 494953
+ 122467 string characters out of 6180976
+ 217858 words of memory out of 5000000
  11074 multiletter control sequences out of 15000+600000
  23218 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -767,11 +784,11 @@ ymbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (6 pages, 21728618 bytes).
+Output written on jguan8_smadani2_project_report.pdf (7 pages, 21730830 bytes).
 
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 74 named destinations out of 1000 (max. 500000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
  141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
