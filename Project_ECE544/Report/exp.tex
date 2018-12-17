@@ -25,17 +25,17 @@ For our experiments, we ran our data one NVIDIA Tesla K80 GPU available on Googl
 	\begin{tabularx}{\linewidth}{| c | c | c |}
 	
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/126_real_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/126_real_B}}\\ 
 			ground truth \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/126_real_A}}\\  
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/126_real_A}}\\  
 			blurred image\\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/126_fake_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/126_fake_B}}\\ 
 			generated image \\
 		\end{tabular}
 	\end{tabularx}	
@@ -46,49 +46,49 @@ The first experiment we ran was using blurred images as input. We took the image
 
 \begin{figure*}
 	\def\tabularxcolumn#1{m{#1}}
-	\begin{tabularx}{\linewidth}{| c | c | c | c | c | }
+	\begin{tabularx}{\linewidth}{| c | c | c | c | }
+%		\begin{tabular}{cc}
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/cologne_000011_000019_leftImg8bit}}\\ 
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/cologne_000013_000019_leftImg8bit.png}}\\
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit.png}}\\ 
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit.png}}\\
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit.png}}\\ 
+%			(a) original image \\
+%		\end{tabular}
+%		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000011_000019_leftImg8bit}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000013_000019_leftImg8bit.png}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit.png}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit.png}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit.png}}\\ 
-			(a) original image \\
-		\end{tabular}
-		&
-		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
 			(b) detected cars \cite{rcnn} \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/10_real_B}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/12_real_B}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_real_B}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_real_B}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_real_B}}\\ 
-			(c) ground truth \\
-		\end{tabular}
-		&
-		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/10_real_A}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/12_real_A}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_real_A}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_real_A}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_real_A}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/10_real_A}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/12_real_A}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/145_real_A}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/171_real_A}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/207_real_A}}\\ 
 			(d) input heat-map \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/10_fake_B}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/12_fake_B}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_fake_B}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_fake_B}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_fake_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/10_real_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/12_real_B}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/145_real_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/171_real_B}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/207_real_B}}\\ 
+			(c) ground truth \\
+		\end{tabular}
+		&
+		\begin{tabular}{cc}
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/10_fake_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/12_fake_B}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/145_fake_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/171_fake_B}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/207_fake_B}}\\ 
 			(e) generated image \\
 		\end{tabular}
 	\end{tabularx}	
@@ -96,7 +96,7 @@ The first experiment we ran was using blurred images as input. We took the image
 \end{figure*}
 In the second experiment, as mentioned in the dataset section, we synthesized a more realistic dataset that is very similar to radar images. In most cases, the GAN was able to restore the boundaries and the orientation of the cars \ref{fig2}. It has also learned to identify the cars some of whose parts are blocked, either because they appear near the edge of image, or appear behind other cars.
 
-<<<<<<< HEAD
+
 As mentioned before, one significant problem with radar images is that some objects in appear to be much weaker or stronger in power than others, depending on their angle with the receiver mmWave antenna. The results from this experiment show that the GAN is able to learn this phenomenon and compensate for it. As a result, it is able to identify the cars, even if the reflection from them is weak. 
 \subsection{}
 
