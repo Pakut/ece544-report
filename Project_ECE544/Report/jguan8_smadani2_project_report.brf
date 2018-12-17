@@ -8,9 +8,19 @@
 \backcite {text2pix, text2pix2}{{2}{3}{section.3}}
 \backcite {pix2pix, cGANberkeley, TV-GAN, deraning}{{2}{3}{section.3}}
 \backcite {hams, TV-GAN}{{2}{3}{section.3}}
+<<<<<<< HEAD
 \backcite {pix2pix}{{2}{3.1}{subsection.3.1}}
 \backcite {unet}{{3}{3.1}{equation.3.2}}
 \backcite {unet}{{3}{3.1}{equation.3.2}}
 \backcite {pix2pix}{{3}{3.1}{equation.3.2}}
 \backcite {pix2pix}{{3}{3.1}{equation.3.2}}
 \backcite {cityscapes}{{3}{3.2}{subsection.3.2}}
+=======
+\backcite {pix2pix}{{2}{3}{section.3}}
+\backcite {unet}{{3}{3}{equation.3.2}}
+\backcite {unet}{{3}{3}{equation.3.2}}
+\backcite {pix2pix}{{3}{3}{equation.3.2}}
+\backcite {pix2pix}{{3}{3}{equation.3.2}}
+\backcite {cityscapes}{{4}{3.2}{subsection.3.2}}
+\backcite {3Ddata, shapenets}{{4}{3.2}{subsection.3.2}}
+>>>>>>> a30cb5f9a62060a8a20fa58c5763b21812834978
