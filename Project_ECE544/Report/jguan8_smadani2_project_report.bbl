@@ -1,10 +1,13 @@
 \begin{thebibliography}{10}\itemsep=-1pt
 
-\bibitem{cityscapes}
+\bibitem{feko}
 Altair feko.
 
 \bibitem{SAE}
 Automated vehicles for safety.
+
+\bibitem{cityscapes}
+The cityscapes dataset.
 
 \bibitem{SAR_DL}
 S.~Chen and H.~Wang.
@@ -23,7 +26,7 @@ S.~Fidler, S.~Dickinson, and R.~Urtasun.
 M.~Gong, J.~Zhao, J.~Liu, Q.~Miao, and L.~Jiao.
 \newblock Change detection in synthetic aperture radar images based on deep
   neural networks.
-\newblock {\em IEEE Transactions on Neural Networks and Learning Systems ,
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems,
   DSAA}, 2016.
 
 \bibitem{GAN}
