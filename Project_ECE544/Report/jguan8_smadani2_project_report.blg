@@ -1,10 +1,54 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: jguan8_smadani2_project_report.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: jguan8_smadani2_project_report.aux
 The style file: ieee.bst
 Database file #1: egbib.bib
 Warning--entry type for "SAE" isn't style-file defined
 --line 8 of file egbib.bib
 Warning--entry type for "cityscapes" isn't style-file defined
 --line 56 of file egbib.bib
+Warning--I didn't find a database entry for "feko"
 Warning--to sort, need author or key in SAE
 Warning--to sort, need author or key in cityscapes
-(There were 4 warnings)
+You've used 21 entries,
+            2120 wiz_defined-function locations,
+            599 strings with 7453 characters,
+and the built_in function-call counts, 7402 in all, are:
+= -- 665
+> -- 543
+< -- 3
++ -- 215
+- -- 194
+* -- 534
+:= -- 1305
+add.period$ -- 61
+call.type$ -- 21
+change.case$ -- 160
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 245
+empty$ -- 445
+format.name$ -- 194
+if$ -- 1474
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 19
+newline$ -- 104
+num.names$ -- 38
+pop$ -- 179
+preamble$ -- 1
+purify$ -- 139
+quote$ -- 0
+skip$ -- 191
+stack$ -- 0
+substring$ -- 209
+swap$ -- 53
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 84
+warning$ -- 2
+while$ -- 47
+width$ -- 23
+write$ -- 207
+(There were 5 warnings)

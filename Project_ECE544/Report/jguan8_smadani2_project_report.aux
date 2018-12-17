@@ -19,6 +19,11 @@
 \citation{snow}
 \citation{SAE}
 \citation{mmWave_SAR}
+\citation{SAR_DL}
+\citation{ship_SAR}
+\citation{change_SAR}
+\citation{rfpose}
+\citation{rfpose3D}
 \@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction and Project Descriptions}{1}{section.1}}
 \newlabel{introduction}{{1}{1}{\hskip -1em.~Introduction and Project Descriptions}{section.1}{}}
 \@writefile{brf}{\backcite{snow}{{1}{1}{section.1}}}
@@ -27,11 +32,6 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.\nobreakspace  {}Challenges}{1}{section.2}}
 \newlabel{challenges}{{2}{1}{\hskip -1em.~Challenges}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}\hskip -1em.\nobreakspace  {}Radar Imaging Primer}{1}{subsection.2.1}}
-\citation{SAR_DL}
-\citation{ship_SAR}
-\citation{change_SAR}
-\citation{rfpose}
-\citation{rfpose3D}
 \citation{cityscapes}
 \citation{GAN}
 \citation{text2pix}
@@ -61,31 +61,35 @@
 \citation{unet}
 \citation{pix2pix}
 \citation{pix2pix}
+\citation{feko}
 \citation{cityscapes}
 \citation{3Ddata}
 \citation{shapenets}
-\citation{rcnn}
 \@writefile{brf}{\backcite{unet}{{3}{3.1}{equation.3.2}}}
 \@writefile{brf}{\backcite{unet}{{3}{3.1}{equation.3.2}}}
 \@writefile{brf}{\backcite{pix2pix}{{3}{3.1}{equation.3.2}}}
 \@writefile{brf}{\backcite{pix2pix}{{3}{3.1}{equation.3.2}}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.\nobreakspace  {}Dataset Generation}{3}{subsection.3.2}}
 \newlabel{dataset}{{3.2}{3}{\hskip -1em.~Dataset Generation}{subsection.3.2}{}}
+\@writefile{brf}{\backcite{feko}{{3}{3.2}{subsection.3.2}}}
 \@writefile{brf}{\backcite{cityscapes}{{3}{3.2}{subsection.3.2}}}
-\@writefile{brf}{\backcite{3Ddata, shapenets}{{3}{3.2}{subsection.3.2}}}
 \citation{rcnn}
+\@writefile{brf}{\backcite{3Ddata, shapenets}{{4}{3.2}{subsection.3.2}}}
 \@writefile{brf}{\backcite{rcnn}{{4}{3.2}{subsection.3.2}}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {} Experiments and Results}{4}{section.4}}
 \newlabel{experiment}{{4}{4}{\hskip -1em.~ Experiments and Results}{section.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\hskip -1em.\nobreakspace  {}}{4}{subsection.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\hskip -1em.\nobreakspace  {}Dataset}{4}{subsection.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\hskip -1em.\nobreakspace  {}Results}{4}{subsection.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Discussion and Conclusion}{4}{section.5}}
-\newlabel{conclusion}{{5}{4}{\hskip -1em.~Discussion and Conclusion}{section.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Custom-built 60 GHz mmWave radar imaging system\relax }}{4}{figure.caption.1}}
+\citation{rcnn}
 \bibstyle{ieee}
 \bibdata{egbib}
-\bibcite{SAE}{1}
-\bibcite{cityscapes}{2}
+\bibcite{cityscapes}{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Custom-built 60 GHz mmWave radar imaging system\relax }}{5}{figure.caption.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\hskip -1em.\nobreakspace  {}}{5}{subsection.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\hskip -1em.\nobreakspace  {}Dataset}{5}{subsection.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\hskip -1em.\nobreakspace  {}Results}{5}{subsection.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Discussion and Conclusion}{5}{section.5}}
+\newlabel{conclusion}{{5}{5}{\hskip -1em.~Discussion and Conclusion}{section.5}{}}
+\bibcite{SAE}{2}
 \bibcite{SAR_DL}{3}
 \bibcite{3Ddata}{4}
 \bibcite{change_SAR}{5}
@@ -103,11 +107,11 @@
 \bibcite{deraning}{17}
 \bibcite{text2pix2}{18}
 \bibcite{TV-GAN}{19}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Result from the first experiment. The GAN has succesfully estimated the boundary of the car.\relax }}{5}{figure.caption.1}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig1}{{1}{5}{Result from the first experiment. The GAN has succesfully estimated the boundary of the car.\relax }{figure.caption.1}{}}
 \bibcite{rfpose}{20}
 \bibcite{rfpose3D}{21}
-\@writefile{brf}{\backcite{rcnn}{{6}{\caption@xref {??}{ on input line 76}}{subfigure.2.10}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Some results from the second experiment. From top to bottom: 1) The car's boundary, shape and orientation has fully been recovered. The gray-scale colors do not much. However, colors are of little importance in our application. 2) The orientation of the middle car is reversed. As we shall see in the next section, 180 degrees of ambiguity can easily be fixed using the Doppler effect. 3) Although there is high reflection from the middle car, its boundary has correctly been identified as a small distant car. 4) Same as 3. Also the orientation of car on the side has been correctly estimated. 5) The generated image does not make sense. This is most likely because the sides of cars were rarely included in the training images provided to the network. \relax }}{6}{figure.caption.2}}
-\newlabel{fig2}{{2}{6}{Some results from the second experiment. From top to bottom: 1) The car's boundary, shape and orientation has fully been recovered. The gray-scale colors do not much. However, colors are of little importance in our application. 2) The orientation of the middle car is reversed. As we shall see in the next section, 180 degrees of ambiguity can easily be fixed using the Doppler effect. 3) Although there is high reflection from the middle car, its boundary has correctly been identified as a small distant car. 4) Same as 3. Also the orientation of car on the side has been correctly estimated. 5) The generated image does not make sense. This is most likely because the sides of cars were rarely included in the training images provided to the network. \relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Result from the first experiment. The GAN has succesfully estimated the boundary of the car.\relax }}{6}{figure.caption.3}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig1}{{3}{6}{Result from the first experiment. The GAN has succesfully estimated the boundary of the car.\relax }{figure.caption.3}{}}
+\@writefile{brf}{\backcite{rcnn}{{7}{\caption@xref {??}{ on input line 94}}{subfigure.4.10}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Some results from the second experiment. From top to bottom: 1) The car's boundary, shape and orientation has fully been recovered. The gray-scale colors do not much. However, colors are of little importance in our application. 2) The orientation of the middle car is reversed. As we shall see in the next section, 180 degrees of ambiguity can easily be fixed using the Doppler effect. 3) Although there is high reflection from the middle car, its boundary has correctly been identified as a small distant car. 4) Same as 3. Also the orientation of car on the side has been correctly estimated. 5) The generated image does not make sense. This is most likely because the sides of cars were rarely included in the training images provided to the network. \relax }}{7}{figure.caption.4}}
+\newlabel{fig2}{{4}{7}{Some results from the second experiment. From top to bottom: 1) The car's boundary, shape and orientation has fully been recovered. The gray-scale colors do not much. However, colors are of little importance in our application. 2) The orientation of the middle car is reversed. As we shall see in the next section, 180 degrees of ambiguity can easily be fixed using the Doppler effect. 3) Although there is high reflection from the middle car, its boundary has correctly been identified as a small distant car. 4) Same as 3. Also the orientation of car on the side has been correctly estimated. 5) The generated image does not make sense. This is most likely because the sides of cars were rarely included in the training images provided to the network. \relax }{figure.caption.4}{}}

@@ -13,7 +13,8 @@
 \backcite {unet}{{3}{3.1}{equation.3.2}}
 \backcite {pix2pix}{{3}{3.1}{equation.3.2}}
 \backcite {pix2pix}{{3}{3.1}{equation.3.2}}
+\backcite {feko}{{3}{3.2}{subsection.3.2}}
 \backcite {cityscapes}{{3}{3.2}{subsection.3.2}}
-\backcite {3Ddata, shapenets}{{3}{3.2}{subsection.3.2}}
+\backcite {3Ddata, shapenets}{{4}{3.2}{subsection.3.2}}
 \backcite {rcnn}{{4}{3.2}{subsection.3.2}}
-\backcite {rcnn}{{6}{\caption@xref {??}{ on input line 76}}{subfigure.2.10}}
+\backcite {rcnn}{{7}{\caption@xref {??}{ on input line 94}}{subfigure.4.10}}
