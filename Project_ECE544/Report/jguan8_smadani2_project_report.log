@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.15)  17 DEC 2018 00:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.15)  17 DEC 2018 01:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,60 +466,60 @@ Underfull \hbox (badness 1701) in paragraph at lines 20--21
  []
 
 ) (./dataset.tex [3]) (./exp.tex
-<./figure/cologne_000011_000019_leftImg8bit.png, id=85, 2055.68pt x 1027.84pt>
+<./figure/cologne_000011_000019_leftImg8bit.png, id=86, 2055.68pt x 1027.84pt>
 <use ./figure/cologne_000011_000019_leftImg8bit.png>
-<./figure/cologne_000013_000019_leftImg8bit.png, id=86, 2055.68pt x 1027.84pt>
+<./figure/cologne_000013_000019_leftImg8bit.png, id=87, 2055.68pt x 1027.84pt>
 <use ./figure/cologne_000013_000019_leftImg8bit.png>
-<./figure/dusseldorf_000008_000019_leftImg8bit.png, id=87, 2055.68pt x 1027.84p
+<./figure/dusseldorf_000008_000019_leftImg8bit.png, id=88, 2055.68pt x 1027.84p
 t> <use ./figure/dusseldorf_000008_000019_leftImg8bit.png>
-<./figure/dusseldorf_000040_000019_leftImg8bit.png, id=88, 2055.68pt x 1027.84p
+<./figure/dusseldorf_000040_000019_leftImg8bit.png, id=89, 2055.68pt x 1027.84p
 t> <use ./figure/dusseldorf_000040_000019_leftImg8bit.png>
-<./figure/dusseldorf_000088_000019_leftImg8bit.png, id=89, 2055.68pt x 1027.84p
+<./figure/dusseldorf_000088_000019_leftImg8bit.png, id=90, 2055.68pt x 1027.84p
 t> <use ./figure/dusseldorf_000088_000019_leftImg8bit.png>
-<./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=90, 2055.6
+<./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=91, 2055.6
 8pt x 1027.84pt>
 <use ./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg>
-<./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=91, 2055.6
+<./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=92, 2055.6
 8pt x 1027.84pt>
 <use ./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg>
-<./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=92, 205
+<./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=93, 205
 5.68pt x 1027.84pt>
 <use ./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg>
-<./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=93, 205
+<./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=94, 205
 5.68pt x 1027.84pt>
 <use ./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg>
-<./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=94, 205
+<./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg, id=95, 205
 5.68pt x 1027.84pt>
 <use ./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg>
-<./figure/10_real_B.png, id=95, 256.96pt x 256.96pt>
+<./figure/10_real_B.png, id=97, 256.96pt x 256.96pt>
 <use ./figure/10_real_B.png>
-<./figure/12_real_B.png, id=96, 256.96pt x 256.96pt>
+<./figure/12_real_B.png, id=98, 256.96pt x 256.96pt>
 <use ./figure/12_real_B.png>
-<./figure/145_real_B.png, id=97, 256.96pt x 256.96pt>
+<./figure/145_real_B.png, id=99, 256.96pt x 256.96pt>
 <use ./figure/145_real_B.png>
-<./figure/171_real_B.png, id=98, 256.96pt x 256.96pt>
+<./figure/171_real_B.png, id=100, 256.96pt x 256.96pt>
 <use ./figure/171_real_B.png>
-<./figure/207_real_B.png, id=99, 256.96pt x 256.96pt>
+<./figure/207_real_B.png, id=101, 256.96pt x 256.96pt>
 <use ./figure/207_real_B.png>
-<./figure/10_real_A.png, id=100, 256.96pt x 256.96pt>
+<./figure/10_real_A.png, id=102, 256.96pt x 256.96pt>
 <use ./figure/10_real_A.png>
-<./figure/12_real_A.png, id=101, 256.96pt x 256.96pt>
+<./figure/12_real_A.png, id=103, 256.96pt x 256.96pt>
 <use ./figure/12_real_A.png>
-<./figure/145_real_A.png, id=102, 256.96pt x 256.96pt>
+<./figure/145_real_A.png, id=104, 256.96pt x 256.96pt>
 <use ./figure/145_real_A.png>
-<./figure/171_real_A.png, id=103, 256.96pt x 256.96pt>
+<./figure/171_real_A.png, id=105, 256.96pt x 256.96pt>
 <use ./figure/171_real_A.png>
-<./figure/207_real_A.png, id=104, 256.96pt x 256.96pt>
+<./figure/207_real_A.png, id=106, 256.96pt x 256.96pt>
 <use ./figure/207_real_A.png>
-<./figure/10_fake_B.png, id=105, 256.96pt x 256.96pt>
+<./figure/10_fake_B.png, id=107, 256.96pt x 256.96pt>
 <use ./figure/10_fake_B.png>
-<./figure/12_fake_B.png, id=106, 256.96pt x 256.96pt>
+<./figure/12_fake_B.png, id=108, 256.96pt x 256.96pt>
 <use ./figure/12_fake_B.png>
-<./figure/145_fake_B.png, id=107, 256.96pt x 256.96pt>
+<./figure/145_fake_B.png, id=109, 256.96pt x 256.96pt>
 <use ./figure/145_fake_B.png>
-<./figure/171_fake_B.png, id=108, 256.96pt x 256.96pt>
+<./figure/171_fake_B.png, id=110, 256.96pt x 256.96pt>
 <use ./figure/171_fake_B.png>
-<./figure/207_fake_B.png, id=109, 256.96pt x 256.96pt>
+<./figure/207_fake_B.png, id=111, 256.96pt x 256.96pt>
 <use ./figure/207_fake_B.png>
 <use ./figure/cologne_000011_000019_leftImg8bit.png>
 <use ./figure/cologne_000013_000019_leftImg8bit.png>
@@ -544,140 +543,140 @@ File: ./figure/cologne_000011_000019_leftImg8bit.png Graphic file (type png)
 
 <use ./figure/cologne_000011_000019_leftImg8bit.png>
 Package pdftex.def Info: ./figure/cologne_000011_000019_leftImg8bit.png used on
- input line 49.
+ input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/cologne_000013_000019_leftImg8bit.png Graphic file (type png)
 
 <use ./figure/cologne_000013_000019_leftImg8bit.png>
 Package pdftex.def Info: ./figure/cologne_000013_000019_leftImg8bit.png used on
- input line 49.
+ input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/dusseldorf_000008_000019_leftImg8bit.png Graphic file (type png)
 
 
 <use ./figure/dusseldorf_000008_000019_leftImg8bit.png>
 Package pdftex.def Info: ./figure/dusseldorf_000008_000019_leftImg8bit.png used
- on input line 49.
+ on input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/dusseldorf_000040_000019_leftImg8bit.png Graphic file (type png)
 
 
 <use ./figure/dusseldorf_000040_000019_leftImg8bit.png>
 Package pdftex.def Info: ./figure/dusseldorf_000040_000019_leftImg8bit.png used
- on input line 49.
+ on input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/dusseldorf_000088_000019_leftImg8bit.png Graphic file (type png)
 
 
 <use ./figure/dusseldorf_000088_000019_leftImg8bit.png>
 Package pdftex.def Info: ./figure/dusseldorf_000088_000019_leftImg8bit.png used
- on input line 49.
+ on input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphic f
 ile (type jpg)
 
 <use ./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_o
-ut_py.jpg used on input line 49.
+ut_py.jpg used on input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphic f
 ile (type jpg)
 
 <use ./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_o
-ut_py.jpg used on input line 49.
+ut_py.jpg used on input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphi
 c file (type jpg)
 
 <use ./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcn
-n_out_py.jpg used on input line 49.
+n_out_py.jpg used on input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphi
 c file (type jpg)
 
 <use ./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcn
-n_out_py.jpg used on input line 49.
+n_out_py.jpg used on input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphi
 c file (type jpg)
 
 <use ./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcn
-n_out_py.jpg used on input line 49.
+n_out_py.jpg used on input line 53.
 (pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/10_real_B.png Graphic file (type png)
 
 <use ./figure/10_real_B.png>
-Package pdftex.def Info: ./figure/10_real_B.png used on input line 49.
+Package pdftex.def Info: ./figure/10_real_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/12_real_B.png Graphic file (type png)
  <use ./figure/12_real_B.png>
-Package pdftex.def Info: ./figure/12_real_B.png used on input line 49.
+Package pdftex.def Info: ./figure/12_real_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/145_real_B.png Graphic file (type png)
 
 <use ./figure/145_real_B.png>
-Package pdftex.def Info: ./figure/145_real_B.png used on input line 49.
+Package pdftex.def Info: ./figure/145_real_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/171_real_B.png Graphic file (type png)
  <use ./figure/171_real_B.png>
-Package pdftex.def Info: ./figure/171_real_B.png used on input line 49.
+Package pdftex.def Info: ./figure/171_real_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/207_real_B.png Graphic file (type png)
 
 <use ./figure/207_real_B.png>
-Package pdftex.def Info: ./figure/207_real_B.png used on input line 49.
+Package pdftex.def Info: ./figure/207_real_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/10_real_A.png Graphic file (type png)
  <use ./figure/10_real_A.png>
-Package pdftex.def Info: ./figure/10_real_A.png used on input line 49.
+Package pdftex.def Info: ./figure/10_real_A.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/12_real_A.png Graphic file (type png)
 
 <use ./figure/12_real_A.png>
-Package pdftex.def Info: ./figure/12_real_A.png used on input line 49.
+Package pdftex.def Info: ./figure/12_real_A.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/145_real_A.png Graphic file (type png)
  <use ./figure/145_real_A.png>
-Package pdftex.def Info: ./figure/145_real_A.png used on input line 49.
+Package pdftex.def Info: ./figure/145_real_A.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/171_real_A.png Graphic file (type png)
 
 <use ./figure/171_real_A.png>
-Package pdftex.def Info: ./figure/171_real_A.png used on input line 49.
+Package pdftex.def Info: ./figure/171_real_A.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/207_real_A.png Graphic file (type png)
  <use ./figure/207_real_A.png>
-Package pdftex.def Info: ./figure/207_real_A.png used on input line 49.
+Package pdftex.def Info: ./figure/207_real_A.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/10_fake_B.png Graphic file (type png)
 
 <use ./figure/10_fake_B.png>
-Package pdftex.def Info: ./figure/10_fake_B.png used on input line 49.
+Package pdftex.def Info: ./figure/10_fake_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/12_fake_B.png Graphic file (type png)
  <use ./figure/12_fake_B.png>
-Package pdftex.def Info: ./figure/12_fake_B.png used on input line 49.
+Package pdftex.def Info: ./figure/12_fake_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/145_fake_B.png Graphic file (type png)
 
 <use ./figure/145_fake_B.png>
-Package pdftex.def Info: ./figure/145_fake_B.png used on input line 49.
+Package pdftex.def Info: ./figure/145_fake_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/171_fake_B.png Graphic file (type png)
  <use ./figure/171_fake_B.png>
-Package pdftex.def Info: ./figure/171_fake_B.png used on input line 49.
+Package pdftex.def Info: ./figure/171_fake_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 File: ./figure/207_fake_B.png Graphic file (type png)
 
 <use ./figure/207_fake_B.png>
-Package pdftex.def Info: ./figure/207_fake_B.png used on input line 49.
+Package pdftex.def Info: ./figure/207_fake_B.png used on input line 53.
 (pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
 
-Overfull \hbox (9.6457pt too wide) in alignment at lines 49--49
+Overfull \hbox (12.79294pt too wide) in alignment at lines 53--53
 [][][][][] 
  []
 
@@ -691,21 +690,24 @@ Underfull \hbox (badness 3492) in paragraph at lines 35--35
 []\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
  []
 
-[4] [5 <./figure/cologne_000011_000019_leftImg8bit.png> <./figure/cologne_00001
-3_000019_leftImg8bit.png> <./figure/dusseldorf_000008_000019_leftImg8bit.png> <
-./figure/dusseldorf_000040_000019_leftImg8bit.png> <./figure/dusseldorf_000088_
-000019_leftImg8bit.png> <./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_o
-ut_py.jpg> <./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg> <.
-/figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/du
-sseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_0
-00088_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/10_real_B.png (PNG cop
-y)> <./figure/12_real_B.png (PNG copy)> <./figure/145_real_B.png (PNG copy)> <.
-/figure/171_real_B.png (PNG copy)> <./figure/207_real_B.png (PNG copy)> <./figu
-re/10_real_A.png (PNG copy)> <./figure/12_real_A.png (PNG copy)> <./figure/145_
-real_A.png (PNG copy)> <./figure/171_real_A.png (PNG copy)> <./figure/207_real_
-A.png (PNG copy)> <./figure/10_fake_B.png (PNG copy)> <./figure/12_fake_B.png (
-PNG copy)> <./figure/145_fake_B.png (PNG copy)> <./figure/171_fake_B.png (PNG c
-opy)> <./figure/207_fake_B.png (PNG copy)>])
+[4]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+ [5 <./figure/cologne_000011_000019_leftImg8bit.png> <./figure/cologne_000013_0
+00019_leftImg8bit.png> <./figure/dusseldorf_000008_000019_leftImg8bit.png> <./f
+igure/dusseldorf_000040_000019_leftImg8bit.png> <./figure/dusseldorf_000088_000
+019_leftImg8bit.png> <./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_
+py.jpg> <./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./fi
+gure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusse
+ldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_0000
+88_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/10_real_B.png (PNG copy)>
+ <./figure/12_real_B.png (PNG copy)> <./figure/145_real_B.png (PNG copy)> <./fi
+gure/171_real_B.png (PNG copy)> <./figure/207_real_B.png (PNG copy)> <./figure/
+10_real_A.png (PNG copy)> <./figure/12_real_A.png (PNG copy)> <./figure/145_rea
+l_A.png (PNG copy)> <./figure/171_real_A.png (PNG copy)> <./figure/207_real_A.p
+ng (PNG copy)> <./figure/10_fake_B.png (PNG copy)> <./figure/12_fake_B.png (PNG
+ copy)> <./figure/145_fake_B.png (PNG copy)> <./figure/171_fake_B.png (PNG copy
+)> <./figure/207_fake_B.png (PNG copy)>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
  [6
 
@@ -715,19 +717,26 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
 (./jguan8_smadani2_project_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
-Package rerunfilecheck Info: File `jguan8_smadani2_project_report.brf' has not 
-changed.
-(rerunfilecheck)             Checksum: EBE65E791AD7D03BFDC3F2FCD1A6DB3B;806.
+
+
+Package rerunfilecheck Warning: File `jguan8_smadani2_project_report.brf' has c
+hanged.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `jguan8_smadani2_project_report.brf'
+:
+(rerunfilecheck)             Before: B59A016EA7115855F41E9D9939475532;849
+(rerunfilecheck)             After:  FBEBE6B538DBF29574C227D8C7119C11;1006.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 7997 strings out of 494953
- 121962 string characters out of 6180976
- 212819 words of memory out of 5000000
- 11054 multiletter control sequences out of 15000+600000
+ 8002 strings out of 494953
+ 122001 string characters out of 6180976
+ 213846 words of memory out of 5000000
+ 11058 multiletter control sequences out of 15000+600000
  23218 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,19n,42p,1993b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,19n,42p,2481b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
@@ -739,13 +748,11 @@ ymbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (6 pages, 21667739 bytes).
+Output written on jguan8_smadani2_project_report.pdf (6 pages, 21668756 bytes).
 
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 69 named destinations out of 1000 (max. 500000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 70 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-=======
->>>>>>> 23135c9bd9d561b143b2f95a540f4807cdcac4d2
