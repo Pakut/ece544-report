@@ -13,3 +13,7 @@
 \backcite {unet}{{3}{3}{equation.3.2}}
 \backcite {pix2pix}{{3}{3}{equation.3.2}}
 \backcite {pix2pix}{{3}{3}{equation.3.2}}
+<<<<<<< HEAD
+=======
+\backcite {cityscapes}{{4}{3.2}{subsection.3.2}}
+>>>>>>> 8e25ee5401332272f84d6f1ee4c65408a811e236
