@@ -33,6 +33,11 @@ I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
 \newblock In {\em Advances in neural information processing systems}, pages
   2672--2680, 2014.
 
+\bibitem{rcnn}
+K.~He, G.~Gkioxari, P.~Dollár, and R.~Girshick.
+\newblock Mask r-cnn.
+\newblock {\em arXiv:1703.06870 [cs.CV]}, 2017.
+
 \bibitem{pix2pix}
 P.~Isola, J.-Y. Zhu, T.~Zhou, and A.~A. Efros.
 \newblock Image-to-image translation with conditional adversarial networks.
