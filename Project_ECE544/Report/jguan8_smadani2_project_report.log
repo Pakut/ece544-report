@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  16 DEC 2018 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  17 DEC 2018 00:46
 entering extended mode
 **./jguan8_smadani2_project_report.tex
 (jguan8_smadani2_project_report.tex
@@ -421,17 +421,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `jguan8_smadani2_project_report.brf' has not 
 changed.
-(rerunfilecheck)             Checksum: 36E7A38674B6A710281DEB2D6DADE041;823.
+(rerunfilecheck)             Checksum: C29CD1EF5378D4A92320A084E07FB732;867.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
- 6494 strings out of 492970
- 95885 string characters out of 3126593
- 192658 words of memory out of 3000000
- 10217 multiletter control sequences out of 15000+200000
+ 6500 strings out of 492970
+ 95932 string characters out of 3126593
+ 195685 words of memory out of 3000000
+ 10222 multiletter control sequences out of 15000+200000
  23218 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,27p,1995b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,27p,2483b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
@@ -446,9 +446,9 @@ ourier/ucrr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (5 pages, 157709 bytes).
+Output written on jguan8_smadani2_project_report.pdf (5 pages, 159185 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
