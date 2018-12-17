@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  17 DEC 2018 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  17 DEC 2018 17:14
 entering extended mode
 **./jguan8_smadani2_project_report.tex
 (jguan8_smadani2_project_report.tex
@@ -469,22 +469,22 @@ x.map}
 
 
 ]) (method.tex) (cGAN.tex [2]
-Underfull \hbox (badness 1701) in paragraph at lines 20--21
+Underfull \hbox (badness 1701) in paragraph at lines 22--23
 []\OT1/ptm/m/n/10 The mo-ti-va-tion be-hind this is to cap-ture the low-
  []
 
 ) (dataset.tex [3]) (exp.tex
-<./figure/exp_2.png, id=87, 380.17032pt x 507.39563pt>
+<./figure/exp_2.png, id=89, 380.17032pt x 507.39563pt>
 File: ./figure/exp_2.png Graphic file (type png)
 <use ./figure/exp_2.png>
 Package pdftex.def Info: ./figure/exp_2.png  used on input line 6.
 (pdftex.def)             Requested size: 170.7212pt x 227.62138pt.
-<./figure/exp_1.png, id=89, 364.36125pt x 235.63031pt>
+<./figure/exp_1.png, id=91, 364.36125pt x 235.63031pt>
 File: ./figure/exp_1.png Graphic file (type png)
 <use ./figure/exp_1.png>
 Package pdftex.def Info: ./figure/exp_1.png  used on input line 13.
 (pdftex.def)             Requested size: 213.39232pt x 113.81316pt.
-<./figure/exp_1_img.jpg, id=90, 1859.94875pt x 973.6375pt>
+<./figure/exp_1_img.jpg, id=92, 1859.94875pt x 973.6375pt>
 File: ./figure/exp_1_img.jpg Graphic file (type jpg)
 <use ./figure/exp_1_img.jpg>
 Package pdftex.def Info: ./figure/exp_1_img.jpg  used on input line 14.
@@ -494,17 +494,18 @@ Overfull \hbox (18.91289pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
-<./figure/2d_origin.jpg, id=92, 1124.2pt x 843.15pt>
+[4 <./figure/exp_2.png> <./figure/exp_1.png> <./figure/exp_1_img.jpg>]
+<./figure/2d_origin.jpg, id=108, 1124.2pt x 843.15pt>
 File: ./figure/2d_origin.jpg Graphic file (type jpg)
 <use ./figure/2d_origin.jpg>
 Package pdftex.def Info: ./figure/2d_origin.jpg  used on input line 23.
 (pdftex.def)             Requested size: 227.61494pt x 113.80746pt.
-<./figure/2d_detect.jpg, id=93, 1124.2pt x 843.15pt>
+<./figure/2d_detect.jpg, id=109, 1124.2pt x 843.15pt>
 File: ./figure/2d_detect.jpg Graphic file (type jpg)
 <use ./figure/2d_detect.jpg>
 Package pdftex.def Info: ./figure/2d_detect.jpg  used on input line 24.
 (pdftex.def)             Requested size: 227.61494pt x 113.80746pt.
-<./figure/3d_cam.jpg, id=94, 2890.8pt x 652.4375pt>
+<./figure/3d_cam.jpg, id=110, 2890.8pt x 652.4375pt>
 File: ./figure/3d_cam.jpg Graphic file (type jpg)
 <use ./figure/3d_cam.jpg>
 Package pdftex.def Info: ./figure/3d_cam.jpg  used on input line 25.
@@ -514,22 +515,22 @@ Overfull \hbox (33.12602pt too wide) in paragraph at lines 25--25
  [][] 
  []
 
-<./figure/2d_blur.jpg, id=95, 1124.2pt x 843.15pt>
+<./figure/2d_blur.jpg, id=111, 1124.2pt x 843.15pt>
 File: ./figure/2d_blur.jpg Graphic file (type jpg)
 <use ./figure/2d_blur.jpg>
 Package pdftex.def Info: ./figure/2d_blur.jpg  used on input line 26.
 (pdftex.def)             Requested size: 227.61494pt x 113.80746pt.
-<./figure/2d_select.jpg, id=96, 1124.2pt x 843.15pt>
+<./figure/2d_select.jpg, id=112, 1124.2pt x 843.15pt>
 File: ./figure/2d_select.jpg Graphic file (type jpg)
 <use ./figure/2d_select.jpg>
 Package pdftex.def Info: ./figure/2d_select.jpg  used on input line 27.
 (pdftex.def)             Requested size: 227.61494pt x 113.80746pt.
-<./figure/CAD.png, id=97, 642.4pt x 354.32375pt>
+<./figure/CAD.png, id=113, 642.4pt x 354.32375pt>
 File: ./figure/CAD.png Graphic file (type png)
 <use ./figure/CAD.png>
 Package pdftex.def Info: ./figure/CAD.png  used on input line 34.
 (pdftex.def)             Requested size: 213.39436pt x 113.80762pt.
-<./figure/side.jpg, id=98, 1124.2pt x 843.15pt>
+<./figure/side.jpg, id=114, 1124.2pt x 843.15pt>
 File: ./figure/side.jpg Graphic file (type jpg)
 <use ./figure/side.jpg>
 Package pdftex.def Info: ./figure/side.jpg  used on input line 35.
@@ -539,7 +540,7 @@ Overfull \hbox (18.9373pt too wide) in paragraph at lines 35--35
  [][] 
  []
 
-<./figure/specular.jpg, id=99, 1124.2pt x 843.15pt>
+<./figure/specular.jpg, id=115, 1124.2pt x 843.15pt>
 File: ./figure/specular.jpg Graphic file (type jpg)
 <use ./figure/specular.jpg>
 Package pdftex.def Info: ./figure/specular.jpg  used on input line 36.
@@ -549,25 +550,18 @@ Overfull \hbox (18.9373pt too wide) in paragraph at lines 36--36
  [][] 
  []
 
-[4 <./figure/exp_2.png> <./figure/exp_1.png> <./figure/exp_1_img.jpg>]
-
-LaTeX Warning: Text page 5 contains only floats.
-
-
-Underfull \vbox (badness 1028) has occurred while \output is active []
-
 File: ./figure/126_real_B.png Graphic file (type png)
 <use ./figure/126_real_B.png>
 Package pdftex.def Info: ./figure/126_real_B.png  used on input line 62.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/126_real_A.png Graphic file (type png)
 <use ./figure/126_real_A.png>
 Package pdftex.def Info: ./figure/126_real_A.png  used on input line 62.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/126_fake_B.png Graphic file (type png)
 <use ./figure/126_fake_B.png>
 Package pdftex.def Info: ./figure/126_fake_B.png  used on input line 62.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 
 Underfull \hbox (badness 10000) in alignment at lines 62--62
 [][][] 
@@ -576,180 +570,154 @@ Underfull \hbox (badness 10000) in alignment at lines 62--62
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./figure/2d_origin.jpg> <./figure/2d_detect.jpg> <./figure/3d_cam.jpg> <./f
-igure/2d_blur.jpg> <./figure/2d_select.jpg> <./figure/CAD.png> <./figure/side.j
-pg> <./figure/specular.jpg>]
-File: ./figure/cologne_000011_000019_leftImg8bit.png Graphic file (type png)
-<use ./figure/cologne_000011_000019_leftImg8bit.png>
-Package pdftex.def Info: ./figure/cologne_000011_000019_leftImg8bit.png  used o
-n input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
-File: ./figure/cologne_000013_000019_leftImg8bit.png Graphic file (type png)
-<use ./figure/cologne_000013_000019_leftImg8bit.png>
-Package pdftex.def Info: ./figure/cologne_000013_000019_leftImg8bit.png  used o
-n input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
-File: ./figure/dusseldorf_000008_000019_leftImg8bit.png Graphic file (type png)
-
-<use ./figure/dusseldorf_000008_000019_leftImg8bit.png>
-Package pdftex.def Info: ./figure/dusseldorf_000008_000019_leftImg8bit.png  use
-d on input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
-File: ./figure/dusseldorf_000040_000019_leftImg8bit.png Graphic file (type png)
-
-<use ./figure/dusseldorf_000040_000019_leftImg8bit.png>
-Package pdftex.def Info: ./figure/dusseldorf_000040_000019_leftImg8bit.png  use
-d on input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
-File: ./figure/dusseldorf_000088_000019_leftImg8bit.png Graphic file (type png)
-
-<use ./figure/dusseldorf_000088_000019_leftImg8bit.png>
-Package pdftex.def Info: ./figure/dusseldorf_000088_000019_leftImg8bit.png  use
-d on input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
 File: ./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphic f
 ile (type jpg)
 <use ./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_o
 ut_py.jpg  used on input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
+(pdftex.def)             Requested size: 105.26802pt x 105.26802pt.
 File: ./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphic f
 ile (type jpg)
 <use ./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_o
 ut_py.jpg  used on input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
+(pdftex.def)             Requested size: 105.26802pt x 105.26802pt.
 File: ./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphi
 c file (type jpg)
 <use ./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcn
 n_out_py.jpg  used on input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
+(pdftex.def)             Requested size: 105.26802pt x 105.26802pt.
 File: ./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphi
 c file (type jpg)
 <use ./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcn
 n_out_py.jpg  used on input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
+(pdftex.def)             Requested size: 105.26802pt x 105.26802pt.
 File: ./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg Graphi
 c file (type jpg)
 <use ./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg>
 Package pdftex.def Info: ./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcn
 n_out_py.jpg  used on input line 115.
-(pdftex.def)             Requested size: 76.81805pt x 76.81805pt.
-File: ./figure/10_real_B.png Graphic file (type png)
-<use ./figure/10_real_B.png>
-Package pdftex.def Info: ./figure/10_real_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
-File: ./figure/12_real_B.png Graphic file (type png)
-<use ./figure/12_real_B.png>
-Package pdftex.def Info: ./figure/12_real_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
-File: ./figure/145_real_B.png Graphic file (type png)
-<use ./figure/145_real_B.png>
-Package pdftex.def Info: ./figure/145_real_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
-File: ./figure/171_real_B.png Graphic file (type png)
-<use ./figure/171_real_B.png>
-Package pdftex.def Info: ./figure/171_real_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
-File: ./figure/207_real_B.png Graphic file (type png)
-<use ./figure/207_real_B.png>
-Package pdftex.def Info: ./figure/207_real_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.26802pt x 105.26802pt.
 File: ./figure/10_real_A.png Graphic file (type png)
 <use ./figure/10_real_A.png>
 Package pdftex.def Info: ./figure/10_real_A.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/12_real_A.png Graphic file (type png)
 <use ./figure/12_real_A.png>
 Package pdftex.def Info: ./figure/12_real_A.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/145_real_A.png Graphic file (type png)
 <use ./figure/145_real_A.png>
 Package pdftex.def Info: ./figure/145_real_A.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/171_real_A.png Graphic file (type png)
 <use ./figure/171_real_A.png>
 Package pdftex.def Info: ./figure/171_real_A.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/207_real_A.png Graphic file (type png)
 <use ./figure/207_real_A.png>
 Package pdftex.def Info: ./figure/207_real_A.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
+File: ./figure/10_real_B.png Graphic file (type png)
+<use ./figure/10_real_B.png>
+Package pdftex.def Info: ./figure/10_real_B.png  used on input line 115.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
+File: ./figure/12_real_B.png Graphic file (type png)
+<use ./figure/12_real_B.png>
+Package pdftex.def Info: ./figure/12_real_B.png  used on input line 115.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
+File: ./figure/145_real_B.png Graphic file (type png)
+<use ./figure/145_real_B.png>
+Package pdftex.def Info: ./figure/145_real_B.png  used on input line 115.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
+File: ./figure/171_real_B.png Graphic file (type png)
+<use ./figure/171_real_B.png>
+Package pdftex.def Info: ./figure/171_real_B.png  used on input line 115.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
+File: ./figure/207_real_B.png Graphic file (type png)
+<use ./figure/207_real_B.png>
+Package pdftex.def Info: ./figure/207_real_B.png  used on input line 115.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/10_fake_B.png Graphic file (type png)
 <use ./figure/10_fake_B.png>
 Package pdftex.def Info: ./figure/10_fake_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/12_fake_B.png Graphic file (type png)
 <use ./figure/12_fake_B.png>
 Package pdftex.def Info: ./figure/12_fake_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/145_fake_B.png Graphic file (type png)
 <use ./figure/145_fake_B.png>
 Package pdftex.def Info: ./figure/145_fake_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/171_fake_B.png Graphic file (type png)
 <use ./figure/171_fake_B.png>
 Package pdftex.def Info: ./figure/171_fake_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 File: ./figure/207_fake_B.png Graphic file (type png)
 <use ./figure/207_fake_B.png>
 Package pdftex.def Info: ./figure/207_fake_B.png  used on input line 115.
-(pdftex.def)             Requested size: 76.82196pt x 76.82196pt.
+(pdftex.def)             Requested size: 105.27585pt x 105.27585pt.
 
-Overfull \hbox (15.65393pt too wide) in alignment at lines 115--115
-[][][][][] 
+Overfull \hbox (22.23929pt too wide) in alignment at lines 115--115
+[][][][] 
  []
 
-) (conclusion.tex) [6 <./figure/126_real_B.png (PNG copy)> <./figure/126_real_A
-.png (PNG copy)> <./figure/126_fake_B.png (PNG copy)>]
-(jguan8_smadani2_project_report.bbl (jguan8_smadani2_project_report.brf)
+
+LaTeX Warning: Float too large for page by 58.98318pt on input line 117.
+
+) (conclusion.tex)
+Underfull \vbox (badness 1028) has occurred while \output is active []
+
+ [5 <./figure/2d_origin.jpg> <./figure/2d_detect.jpg> <./figure/3d_cam.jpg> <./
+figure/2d_blur.jpg> <./figure/2d_select.jpg>] (jguan8_smadani2_project_report.b
+bl
+(jguan8_smadani2_project_report.brf)
 \tf@brf=\write3
 \openout3 = `jguan8_smadani2_project_report.brf'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./figure/cologne_000011_000019_leftImg8bit.png> <./figure/cologne_000013_0
-00019_leftImg8bit.png> <./figure/dusseldorf_000008_000019_leftImg8bit.png> <./f
-igure/dusseldorf_000040_000019_leftImg8bit.png> <./figure/dusseldorf_000088_000
-019_leftImg8bit.png> <./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_
-py.jpg> <./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./fi
-gure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusse
-ldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_0000
-88_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/10_real_B.png (PNG copy)>
- <./figure/12_real_B.png (PNG copy)> <./figure/145_real_B.png (PNG copy)> <./fi
-gure/171_real_B.png (PNG copy)> <./figure/207_real_B.png (PNG copy)> <./figure/
-10_real_A.png (PNG copy)> <./figure/12_real_A.png (PNG copy)> <./figure/145_rea
-l_A.png (PNG copy)> <./figure/171_real_A.png (PNG copy)> <./figure/207_real_A.p
-ng (PNG copy)> <./figure/10_fake_B.png (PNG copy)> <./figure/12_fake_B.png (PNG
- copy)> <./figure/145_fake_B.png (PNG copy)> <./figure/171_fake_B.png (PNG copy
-)> <./figure/207_fake_B.png (PNG copy)>]
 Underfull \hbox (badness 3492) in paragraph at lines 38--38
 []\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
  []
 
-)
+[6 <./figure/CAD.png> <./figure/side.jpg> <./figure/specular.jpg>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
- [8]
+ [7
+
+ <./figure/126_real_B.png (PNG copy)> <./figure/126_real_A.png (PNG copy)> <./f
+igure/126_fake_B.png (PNG copy)>] [8 <./figure/cologne_000011_000019_leftImg8bi
+t_mask_rcnn_out_py.jpg> <./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_o
+ut_py.jpg> <./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg>
+ <./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure
+/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/10_real_A
+.png (PNG copy)> <./figure/12_real_A.png (PNG copy)> <./figure/145_real_A.png (
+PNG copy)> <./figure/171_real_A.png (PNG copy)> <./figure/207_real_A.png (PNG c
+opy)> <./figure/10_real_B.png (PNG copy)> <./figure/12_real_B.png (PNG copy)> <
+./figure/145_real_B.png (PNG copy)> <./figure/171_real_B.png (PNG copy)> <./fig
+ure/207_real_B.png (PNG copy)> <./figure/10_fake_B.png (PNG copy)> <./figure/12
+_fake_B.png (PNG copy)> <./figure/145_fake_B.png (PNG copy)> <./figure/171_fake
+_B.png (PNG copy)> <./figure/207_fake_B.png (PNG copy)>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
- (jguan8_smadani2_project_report.aux)
+
+(jguan8_smadani2_project_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `jguan8_smadani2_project_report.brf' has not 
 changed.
-(rerunfilecheck)             Checksum: 5C93F2ACE9AC4918A3469D583BBE9F9B;990.
+(rerunfilecheck)             Checksum: F68F400194F006F00E337BE35BD75722;1111.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 8064 strings out of 492970
- 126115 string characters out of 3126593
- 223680 words of memory out of 3000000
- 11691 multiletter control sequences out of 15000+200000
+ 8031 strings out of 492970
+ 124758 string characters out of 3126593
+ 226671 words of memory out of 3000000
+ 11671 multiletter control sequences out of 15000+200000
  23218 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,19n,42p,2483b,513s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,19n,42p,2487b,513s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
@@ -764,10 +732,9 @@ ourier/ucrr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (8 pages, 23148348 bytes).
-
+Output written on jguan8_smadani2_project_report.pdf (8 pages, 4283633 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

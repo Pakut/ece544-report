@@ -16,7 +16,7 @@ We first conduct experiments with our custom-built 60 GHz mmWave imaging system 
 	\label{fig_real}
 \end{figure} 
 
-Figure \ref{2D_synth} demonstrates our 2D radar image synthesizing algorithm. 
+Figure \ref{2D_synth} and \ref{2D_synth} demonstrate our 2D and 3D radar image synthesizing procedures. For 2D images, we start with video frames from the Cityscapes dataset ~\cite{cityscapes}, run trained Mask R-CNN model to detect and label objects ~\cite{rcnn}. It will also generate object masks which we will use to roughly recover the 3D scene and reflector model with. After that, we simulate radar signal and produce synthesized 2D radar images. At the same time, we extract a high quality images of objects from the camera pictures as the ground truth for our conditional GAN model.   
 
 \begin{figure}
 	\centering
@@ -25,7 +25,7 @@ Figure \ref{2D_synth} demonstrates our 2D radar image synthesizing algorithm.
 	\includegraphics[width=9.5cm,height=4cm]{./figure/3d_cam.jpg}\\
 	\includegraphics[width=8cm,height=4cm]{./figure/2d_blur.jpg}\\
 	\includegraphics[width=8cm,height=4cm]{./figure/2d_select.jpg}\\
-	\caption{Custom-built 60 GHz mmWave radar imaging system}
+	\caption{2D radar image synthesizing procedure and result}
 	\label{2D_synth}
 \end{figure}
 
@@ -34,7 +34,7 @@ Figure \ref{2D_synth} demonstrates our 2D radar image synthesizing algorithm.
 	\includegraphics[width=7.5cm,height=4cm]{./figure/CAD.png}\\
 	\includegraphics[width=9cm,height=6cm]{./figure/side.jpg}\\
 	\includegraphics[width=9cm,height=6cm]{./figure/specular.jpg}\\
-	\caption{Custom-built 60 GHz mmWave radar imaging system}
+	\caption{3D radar image synthesizing procedure}
 	\label{3D_synth}
 \end{figure}
 
@@ -46,17 +46,17 @@ For our experiments, we ran our data one NVIDIA Tesla K80 GPU available on Googl
 	\begin{tabularx}{\linewidth}{| c | c | c |}
 	
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/126_real_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/126_real_B}}\\ 
 			ground truth \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/126_real_A}}\\  
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/126_real_A}}\\  
 			blurred image\\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/126_fake_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/126_fake_B}}\\ 
 			generated image \\
 		\end{tabular}
 	\end{tabularx}	
@@ -67,49 +67,49 @@ The first experiment we ran was using blurred images as input. We took the image
 
 \begin{figure*}
 	\def\tabularxcolumn#1{m{#1}}
-	\begin{tabularx}{\linewidth}{| c | c | c | c | c | }
+	\begin{tabularx}{\linewidth}{| c | c | c | c | }
+%		\begin{tabular}{cc}
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/cologne_000011_000019_leftImg8bit}}\\ 
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/cologne_000013_000019_leftImg8bit.png}}\\
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit.png}}\\ 
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit.png}}\\
+%			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit.png}}\\ 
+%			(a) original image \\
+%		\end{tabular}
+%		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000011_000019_leftImg8bit}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000013_000019_leftImg8bit.png}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit.png}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit.png}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit.png}}\\ 
-			(a) original image \\
-		\end{tabular}
-		&
-		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
 			(b) detected cars \cite{rcnn} \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/10_real_B}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/12_real_B}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_real_B}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_real_B}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_real_B}}\\ 
-			(c) ground truth \\
-		\end{tabular}
-		&
-		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/10_real_A}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/12_real_A}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_real_A}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_real_A}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_real_A}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/10_real_A}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/12_real_A}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/145_real_A}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/171_real_A}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/207_real_A}}\\ 
 			(d) input heat-map \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/10_fake_B}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/12_fake_B}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_fake_B}}\\ 
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_fake_B}}\\
-			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_fake_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/10_real_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/12_real_B}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/145_real_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/171_real_B}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/207_real_B}}\\ 
+			(c) ground truth \\
+		\end{tabular}
+		&
+		\begin{tabular}{cc}
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/10_fake_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/12_fake_B}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/145_fake_B}}\\ 
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/171_fake_B}}\\
+			\subfloat{\includegraphics[width=3.7cm, height=3.7cm]{./figure/207_fake_B}}\\ 
 			(e) generated image \\
 		\end{tabular}
 	\end{tabularx}	
@@ -117,32 +117,4 @@ The first experiment we ran was using blurred images as input. We took the image
 \end{figure*}
 In the second experiment, as mentioned in the dataset section, we synthesized a more realistic dataset that is very similar to radar images. In most cases, the GAN was able to restore the boundaries and the orientation of the cars \ref{fig2}. It has also learned to identify the cars some of whose parts are blocked, either because they appear near the edge of image, or appear behind other cars.
 
-<<<<<<< HEAD
-As mentioned before, one significant problem with radar images is that some objects in appear to be much weaker or stronger in power than others, depending on their angle with the receiver mmWave antenna. The results from this experiment show that the GAN is able to learn this phenomenon and compensate for it. As a result, it is able to identify the cars, even if the reflection from them is weak. 
-\subsection{}
-
-\subsection{Dataset}
-Training dataset 118 
-Testing dataset 509
-% Jayden
-
-\subsection{Results}
-
-
-\iffalse
-We will conduct outdoor experiments on the top floor of the parking garage. Radar images (both 2D and 3D) will be collected with our custom-built Millimeter wave FMCW (Frequency Modulated Continuous Wave) radar system, operating around 60 GHz as shown in the figure above Both the radar transmitter and receiver antennas will be omni-directional. While the transmitter remains fixed, the receiver will move on a linear stage to synthesize a 1D or 2D antenna array to obtain the Direction of Arrival (DoA) measurement in a horizontal plane or the entire 3D space. We will first process raw radar data with fundamental radar signal processing algorithms, and filter out noise and unwanted interference to focus on only a few key features of the target. The target of interest can be either static or under motion. 
-
-\subsection{Dataset Description}
-The dataset we will create should include all significant features of a car. Therefore, we will place a car in a number of orientations in front of the radar, and try to filter out noise and interferences from other key points in pre-processing. We will also simulate the most likely relative positions and motions of the autonomous car with the radar system and other vehicles on the road, take a series of images as they move together.
-\par We might have to face the problem of lack of accurate labels to our training set. One possible solution is to collect another set of reference data with cameras and train an additional neural network with well-developed vision models to label our radar images.
-
-\begin{figure}
-\centering
-\includegraphics[width=8cm,height=6cm]{./figure/experiment_setup.jpg}
-\caption{Custom-built 60 GHz mmWave radar imaging system}
-\end{figure}
-
-\fi
-=======
 As mentioned before, one significant problem with radar images is that some objects in appear to be much weaker or stronger in power than others, depending on their angle with the receiver mmWave antenna. The results from this experiment show that the GAN is able to learn this phenomenon and compensate for it. As a result, it is able to identify the cars, even if the reflection from them is weak figure \ref{fig2}. 
->>>>>>> cc4c183a6e3dae69ab9208637c0b89e8b7c728f6
