@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.15)  17 DEC 2018 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.15)  17 DEC 2018 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,12 +679,26 @@ Overfull \hbox (22.23929pt too wide) in alignment at lines 94--94
 
 LaTeX Warning: Float too large for page by 58.98318pt on input line 96.
 
-) (./conclusion.tex) (./jguan8_smadani2_project_report.bbl
-(./jguan8_smadani2_project_report.brf)
+)
+! Incomplete \iffalse; all text was ignored after line 111.
+<inserted text> 
+                \fi 
+l.61 \input{exp}
+                	% Sohrab
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+(./conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./jguan8_smadani2_project_report.bbl (./jguan8_smadani2_project_report.brf)
 \tf@brf=\write3
 \openout3 = `jguan8_smadani2_project_report.brf'.
 
- [5 <./figure/exp_1.png> <./figure/exp_1_img.jpg>]
+
+[5 <./figure/exp_1.png> <./figure/exp_1_img.jpg>]
 Underfull \hbox (badness 3492) in paragraph at lines 35--35
 []\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
  []
@@ -739,10 +753,10 @@ ymbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (7 pages, 3588331 bytes).
+Output written on jguan8_smadani2_project_report.pdf (7 pages, 3587662 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
  72 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
