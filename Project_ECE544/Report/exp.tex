@@ -13,7 +13,25 @@ We conduct outdoor experiments on the top floor of the parking garage. 3D radar 
 	\centering
 	\includegraphics[width=7.5cm,height=4cm]{./figure/exp_1.png}\\
 	\includegraphics[width=9cm,height=6cm]{./figure/exp_1_img.jpg}
+<<<<<<< HEAD
+	\caption{Real radar image of a 2015 Jeep Wrangler}
+	\label{fig_real}
+\end{figure} 
+
+Figure \ref{2D_synth} and \ref{2D_synth} demonstrate our 2D and 3D radar image synthesizing procedures. For 2D images generation, we start with video frames from the Cityscapes dataset ~\cite{cityscapes}, run trained Mask R-CNN model to detect and label objects ~\cite{rcnn}. It will also generate object masks which we will use to roughly recover the 3D scene and reflector model with. After that, we simulate radar signal and produce synthesized 2D radar images. At the same time, we extract a high quality images of objects from the camera pictures as the ground truth for our conditional GAN model.  For 3D image generation, we begin with 3D CAD models ~\cite{3Ddata}. We first transform the mesh format model into point reflectors by filling the mesh surfaces. Then we choose a reasonable point of view and transfer point reflector model into a spherical coordinate with the origin or our observing point. By selecting reflectors that are not blocked by others in front of them, we get the effective reflector distribution, and randomly choose a number of clusters to emulate the specularity effect. At the end, we implement the same radar simulation algorithms as the 2D case and generates realistic 3D radar images. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=8cm,height=4cm]{./figure/2d_origin.jpg}\\
+	\includegraphics[width=8cm,height=4cm]{./figure/2d_detect.jpg}\\
+	\includegraphics[width=9.5cm,height=4cm]{./figure/3d_cam.jpg}\\
+	\includegraphics[width=8cm,height=4cm]{./figure/2d_blur.jpg}\\
+	\includegraphics[width=8cm,height=4cm]{./figure/2d_select.jpg}\\
+	\caption{2D radar image synthesizing procedure and result}
+	\label{2D_synth}
+=======
 	\caption{Custom-built 60 GHz mmWave radar imaging system}
+>>>>>>> 32a955fd2c8029921066c9341a2e469cf1755ba3
 \end{figure}
 
 
@@ -39,10 +57,10 @@ For our experiments, we ran our data one NVIDIA Tesla K80 GPU available on Googl
 			generated image \\
 		\end{tabular}
 	\end{tabularx}	
-	\caption{Result from the first experiment. The GAN has succesfully estimated the boundary of the car.}\label{fig1}
+	\caption{Result from the toy experiment. The GAN has successfully estimated the boundary of the car.}\label{fig1}
 \end{figure*}
 
-The toy experiment we ran was using blurred images as input. We took the images of cars, added some Gaussian noise and convolved the image with a two-dimensional $sinc$ function. We fed these images as input, and the original images to the network as ground truth. the results showed that the network is able to restore the boundaries of the cars with a high accuracy. The problem with this implementation was that the image was not gray-scaled, and we did not go through a precise simulation according the to underlying physics of mmWave radars to generate the images. The purpose of this step was to evaluate the feasibility of our idea of restoring the boundaries using GANs on a high level. The results from this experiments are shown in figure \ref{fig1}. It can be seen that the boundary of the car has been fairly accurately reconstructed. It is also noteworthy that the GAN was able to restore the side mirror of the car successfully, although there is no side mirror visible point in GAN. 
+The first experiment we ran on the GPU was a toy example using blurred images as input. We took the images of cars, added some Gaussian noise and convolved the image with a two-dimensional $sinc$ function. We fed these images as input, and the original images to the network as ground truth. the results showed that the network is able to restore the boundaries of the cars with a high accuracy. The problem with this implementation was that the image was not gray-scaled, and we did not go through a precise simulation according the to underlying physics of mmWave radars to generate the images. The purpose of this step was to evaluate the feasibility of our idea of restoring the boundaries using GANs on a high level. The results from this experiments are shown in figure \ref{fig1}. It can be seen that the boundary of the car has been fairly accurately reconstructed. It is also noteworthy that the GAN was able to restore the side mirror of the car successfully, although there is no side mirror visible point in GAN. 
 
 \begin{figure*}
 	\def\tabularxcolumn#1{m{#1}}
