@@ -6,13 +6,13 @@ The first experiment we ran was using blurred images. We took the images of cars
 \begin{figure*}
 	\def\tabularxcolumn#1{m{#1}}
 	\begin{tabularx}{\linewidth}{| c | c | c | c | c | }
-		%
 		\begin{tabular}{cc}
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000011_000019_leftImg8bit}}\\ 
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/cologne_000013_000019_leftImg8bit.png}}\\
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit.png}}\\ 
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit.png}}\\
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit.png}}\\ 
+			original image \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
@@ -21,6 +21,7 @@ The first experiment we ran was using blurred images. We took the images of cars
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000008_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000040_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/dusseldorf_000088_000019_leftImg8bit_mask_rcnn_out_py.jpg}}\\ 
+			detected cars \cite{rcnn} \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
@@ -29,6 +30,7 @@ The first experiment we ran was using blurred images. We took the images of cars
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_real_B}}\\ 
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_real_B}}\\
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_real_B}}\\ 
+			ground truth \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
@@ -37,6 +39,7 @@ The first experiment we ran was using blurred images. We took the images of cars
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_real_A}}\\ 
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_real_A}}\\
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_real_A}}\\ 
+			input heat-map \\
 		\end{tabular}
 		&
 		\begin{tabular}{cc}
@@ -45,6 +48,7 @@ The first experiment we ran was using blurred images. We took the images of cars
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/145_fake_B}}\\ 
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/171_fake_B}}\\
 			\subfloat{\includegraphics[width=2.7cm, height=2.7cm]{./figure/207_fake_B}}\\ 
+			generated image \cite{pix2pix} \\
 		\end{tabular}
 	\end{tabularx}	
 	\caption{Many figures}\label{foo}
