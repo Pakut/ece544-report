@@ -42,30 +42,38 @@ Figure \ref{2D_synth} and \ref{3D_synth} demonstrate our 2D and 3D radar image s
 
 For our experiments, we ran our data one NVIDIA Tesla K80 GPU available on Google Cloud using CUDA 9.0 and PyTorch 0.4, along with a local Pascal GTX 1080 GPU using CUDA 10.0 and PyTorch 1.0. We used 1056 images of size $256 \times 256$ as for training, and 452 images for testing. The training phase takes about 11 hours to finish if the complete training dataset is used.
 
-\begin{figure*}[h]
-	\def\tabularxcolumn#1{m{#1}}
+%\begin{figure*}[h]
+%	\def\tabularxcolumn#1{m{#1}}
+%
+%	\begin{tabularx}{\linewidth}{| c | c | c |}
+%	
+%		\begin{tabular}{cc}
+%			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_real_B}}\\ 
+%			ground truth \\
+%		\end{tabular}
+%		&
+%		\begin{tabular}{cc}
+%			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_real_A}}\\  
+%			blurred image\\
+%		\end{tabular}
+%		&
+%		\begin{tabular}{cc}
+%			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_fake_B}}\\ 
+%			generated image \\
+%		\end{tabular}
+%	\end{tabularx}	
+%	\caption{Result from the toy experiment. The GAN has successfully estimated the boundary of the car.}\label{fig1}
+%\end{figure*}
 
-	\begin{tabularx}{\linewidth}{| c | c | c |}
-	
-		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_real_B}}\\ 
-			ground truth \\
-		\end{tabular}
-		&
-		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_real_A}}\\  
-			blurred image\\
-		\end{tabular}
-		&
-		\begin{tabular}{cc}
-			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_fake_B}}\\ 
-			generated image \\
-		\end{tabular}
-	\end{tabularx}	
+\begin{figure}
+	\centering
+	\includegraphics[width=5.4cm, height=2.7cm]{./figure/126_real_B}\\
+	\includegraphics[width=5.4cm, height=2.7cm]{./figure/126_real_A}\\
+	\includegraphics[width=5.4cm, height=2.7cm]{./figure/126_fake_B}\\
 	\caption{Result from the first experiment. The GAN has succesfully estimated the boundary of the car.}\label{fig1}
-\end{figure*}
+\end{figure}
 
-The first experiment we ran was using blurred images as input. We took the images of cars, added some Gaussian noise and convolved the image with a two-dimensional $sinc$ function. We fed these images as input, and the original images to the network as ground truth. the results showed that the network is able to restore the boundaries of the cars with a high accuracy. The problem with this implementation was that the image was not gray-scaled, and we did not go through a precise simulation according the to underlying physics of mmWave radars to generate the images. The purpose of this step was to evaluate the feasibility of our idea of restoring the boundaries using GANs on a high level. The results from this experiments are shown in figure \ref{fig1}. It can be seen that the boundary of the car has been fairly accurately reconstructed. It is also noteworthy that the GAN was able to restore the side mirror of the car successfully, although there is no side mirror visible point in GAN. 
+The first experiment we ran on the GPU was a toy example using blurred images as input. We took the images of cars, added some Gaussian noise and convolved the image with a two-dimensional $sinc$ function. We fed these images as input, and the original images to the network as ground truth. the results showed that the network is able to restore the boundaries of the cars with a high accuracy. The problem with this implementation was that the image was not gray-scaled, and we did not go through a precise simulation according the to underlying physics of mmWave radars to generate the images. The purpose of this step was to evaluate the feasibility of our idea of restoring the boundaries using GANs on a high level. The results from this experiments are shown in figure \ref{fig1}. It can be seen that the boundary of the car has been fairly accurately reconstructed. It is also noteworthy that the GAN was able to restore the side mirror of the car successfully, although there is no side mirror visible point in GAN. 
 
 \begin{figure*}
 	\def\tabularxcolumn#1{m{#1}}
