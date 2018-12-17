@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  17 DEC 2018 01:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  17 DEC 2018 01:52
 entering extended mode
 **./jguan8_smadani2_project_report.tex
 (jguan8_smadani2_project_report.tex
@@ -618,18 +618,11 @@ Overfull \hbox (12.79294pt too wide) in alignment at lines 53--53
 [][][][][] 
  []
 
-) (conclusion.tex) (jguan8_smadani2_project_report.bbl
-(jguan8_smadani2_project_report.brf)
-\tf@brf=\write3
-\openout3 = `jguan8_smadani2_project_report.brf'.
-
- [4]
-Underfull \hbox (badness 3492) in paragraph at lines 35--35
-[]\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
- []
+) (conclusion.tex) [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 6859) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./figure/cologne_000011_000019_leftImg8bit.png> <./figure/cologne_000013_0
 00019_leftImg8bit.png> <./figure/dusseldorf_000008_000019_leftImg8bit.png> <./f
@@ -645,34 +638,32 @@ gure/171_real_B.png (PNG copy)> <./figure/207_real_B.png (PNG copy)> <./figure/
 l_A.png (PNG copy)> <./figure/171_real_A.png (PNG copy)> <./figure/207_real_A.p
 ng (PNG copy)> <./figure/10_fake_B.png (PNG copy)> <./figure/12_fake_B.png (PNG
  copy)> <./figure/145_fake_B.png (PNG copy)> <./figure/171_fake_B.png (PNG copy
-)> <./figure/207_fake_B.png (PNG copy)>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
- [6
+)> <./figure/207_fake_B.png (PNG copy)>] (jguan8_smadani2_project_report.bbl
+(jguan8_smadani2_project_report.brf)
+\tf@brf=\write3
+\openout3 = `jguan8_smadani2_project_report.brf'.
 
-]
+
+Underfull \hbox (badness 3492) in paragraph at lines 35--35
+[]\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+ [6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (jguan8_smadani2_project_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
-
-
-Package rerunfilecheck Warning: File `jguan8_smadani2_project_report.brf' has c
-hanged.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `jguan8_smadani2_project_report.brf'
-:
-(rerunfilecheck)             Before: 0AB88BF106354DB06ED29A5D43158CBF;1026
-(rerunfilecheck)             After:  74B2FFABAA8573265F1880D115BA019E;1026.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `jguan8_smadani2_project_report.brf' has not 
+changed.
+(rerunfilecheck)             Checksum: 74B2FFABAA8573265F1880D115BA019E;1026.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
  7981 strings out of 492970
  124588 string characters out of 3126593
- 224898 words of memory out of 3000000
+ 225901 words of memory out of 3000000
  11631 multiletter control sequences out of 15000+200000
  23218 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -691,7 +682,7 @@ ourier/ucrr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (6 pages, 21693158 bytes).
+Output written on jguan8_smadani2_project_report.pdf (6 pages, 21694547 bytes).
 
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
