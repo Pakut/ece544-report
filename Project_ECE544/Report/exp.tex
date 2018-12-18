@@ -11,7 +11,8 @@ We first conducted experiments with our custom-built 60 GHz mmWave imaging syste
 \begin{figure}
 	\centering
 	\includegraphics[width=7.5cm,height=4cm]{./figure/exp_1.png}\\
-	\includegraphics[width=9cm,height=6cm]{./figure/exp_1_img.jpg}
+	\vspace{0.2 cm}
+	\includegraphics[width=7.5cm,height=4cm]{./figure/exp_1_img.jpg}
 	\caption{Real radar image of a 2015 Jeep Wrangler}
 	\label{fig_real}
 \end{figure} 
@@ -21,9 +22,13 @@ Figure \ref{2D_synth} and \ref{3D_synth} demonstrate our 2D and 3D radar image s
 \begin{figure}
 	\centering
 	\includegraphics[width=8cm,height=4cm]{./figure/2d_origin.jpg}\\
+	\vspace{0.2 cm}
 	\includegraphics[width=8cm,height=4cm]{./figure/2d_detect.jpg}\\
-	\includegraphics[width=9.5cm,height=4cm]{./figure/3d_cam.jpg}\\
-	\includegraphics[width=8cm,height=4cm]{./figure/2d_blur.jpg}\\
+
+	\includegraphics[width=8cm,height=4cm]{./figure/3d_cam.jpg}\\
+
+	\includegraphics[width=8cm,height=4cm]{./figure/2D_heatmap.jpg}\\
+	\vspace{0.2 cm}
 	\includegraphics[width=8cm,height=4cm]{./figure/2d_select.jpg}\\
 	\caption{2D radar image synthesizing procedure and result}
 	\label{2D_synth}
@@ -31,37 +36,13 @@ Figure \ref{2D_synth} and \ref{3D_synth} demonstrate our 2D and 3D radar image s
 
 \begin{figure}
 	\centering
-	\includegraphics[width=7.5cm,height=4cm]{./figure/CAD.png}\\
-	\includegraphics[width=9cm,height=6cm]{./figure/side.jpg}\\
-	\includegraphics[width=9cm,height=6cm]{./figure/specular.jpg}\\
-	\caption{Custom-built 60 GHz mmWave radar imaging system}
+	\includegraphics[width=6cm,height=3cm]{./figure/CAD.png}\\
+	\includegraphics[width=7cm,height=4cm]{./figure/side.jpg}\\
+	\includegraphics[width=7cm,height=4cm]{./figure/specular.jpg}\\
+	\caption{3D radar image synthesizing procedure and result}
 	\label{3D_synth}
 \end{figure}
 
-For our experiments, we ran our data one NVIDIA Tesla K80 GPU available on Google Cloud using CUDA 9.0 and PyTorch 0.4, along with a local Pascal GTX 1080 GPU using CUDA 10.0 and PyTorch 1.0. We used 1056 images of size $256 \times 256$ as for training, and 452 images for testing. The training phase takes about 11 hours to finish if the complete training dataset is used.
-
-%\begin{figure*}[h]
-%	\def\tabularxcolumn#1{m{#1}}
-%
-%	\begin{tabularx}{\linewidth}{| c | c | c |}
-%	
-%		\begin{tabular}{cc}
-%			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_real_B}}\\ 
-%			ground truth \\
-%		\end{tabular}
-%		&
-%		\begin{tabular}{cc}
-%			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_real_A}}\\  
-%			blurred image\\
-%		\end{tabular}
-%		&
-%		\begin{tabular}{cc}
-%			\subfloat{\includegraphics[width=3.7cm, height=1.85cm]{./figure/126_fake_B}}\\ 
-%			generated image \\
-%		\end{tabular}
-%	\end{tabularx}	
-%	\caption{Result from the toy experiment. The GAN has successfully estimated the boundary of the car.}\label{fig1}
-%\end{figure*}
 
 \begin{figure}
 	\centering
@@ -71,7 +52,7 @@ For our experiments, we ran our data one NVIDIA Tesla K80 GPU available on Googl
 	\caption{Result from the first experiment. The GAN has succesfully estimated the boundary of the car.}\label{fig1}
 \end{figure}
 
-The first experiment we ran on the GPU was a toy example using blurred images as input. We took the images of cars, added some Gaussian noise and convolved the image with a two-dimensional $sinc$ function. We fed these images as input, and the original images to the network as ground truth. the results showed that the network is able to restore the boundaries of the cars with a high accuracy. The problem with this implementation was that the image was not gray-scaled, and we did not go through a precise simulation according the to underlying physics of mmWave radars to generate the images. The purpose of this step was to evaluate the feasibility of our idea of restoring the boundaries using GANs on a high level. The results from this experiments are shown in figure \ref{fig1}. It can be seen that the boundary of the car has been fairly accurately reconstructed. It is also noteworthy that the GAN was able to restore the side mirror of the car successfully, although there is no side mirror visible point in GAN. 
+The first experiment we conducted was a toy example using blurred images as input. The purpose of this step was to evaluate the feasibility of our idea of restoring the boundaries using GANs on a high level. We took the images of cars, added some Gaussian noise and convolved the image with a two-dimensional $sinc$ function. We fed these images as input, and the original images to the network as ground truth. the results showed that the network is able to restore the boundaries of the cars with a high accuracy. The problem with this implementation was that the image was not gray-scaled, and we did not go through a precise simulation according the to underlying physics of mmWave radars to generate the images. The results from this experiments are shown in figure \ref{fig1}. It can be seen that the boundary of the car has been fairly accurately reconstructed. It is also noteworthy that the GAN was able to restore the side mirror of the car successfully, although there is no side mirror visible point in GAN. These results showed that conditional GAN can be a viable candidate for reproducing the boundaries of objects from low resolution. 
 
 \begin{figure*}
 	\def\tabularxcolumn#1{m{#1}}
@@ -123,7 +104,8 @@ The first experiment we ran on the GPU was a toy example using blurred images as
 	\end{tabularx}	
 	\caption{Some results from the second experiment. From top to bottom: 1) The car's boundary, shape and orientation has fully been recovered. The gray-scale colors do not much. However, colors are of little importance in our application. 2) The orientation of the middle car is reversed. As we shall see in the next section, 180 degrees of ambiguity can easily be fixed using the Doppler effect. 3) Although there is high reflection from the middle car, its boundary has correctly been identified as a small distant car. 4) Same as 3. Also the orientation of car on the side has been correctly estimated. 5) The generated image does not make sense. This is most likely because the sides of cars were rarely included in the training images provided to the network. }\label{fig2}
 \end{figure*}
-In the second experiment, as mentioned in the dataset section, we synthesized a more realistic dataset that is very similar to radar images. In most cases, the GAN was able to restore the boundaries and the orientation of the cars \ref{fig2}. It has also learned to identify the cars some of whose parts are blocked, either because they appear near the edge of image, or appear behind other cars.
+Once we were confident with the boundary estimation ability of GANs, we started training our model with synthesized 2D radar heat-maps. These heat-maps represents the likelihood of having reflectors from the corresponding azimuth and elevation angles. Higher intensity means higher probability of the existence of a reflector. Although it maps objects of interest at roughly the right location, it suffers from unbalanced scaling and out of shape boundary. Firstly, further away reflectors span across fewer angles so its reflection power is more concentrated than nearby objects that span in a much wider range of angle. On the other hand, instead of a sharp boundary as camera images, the likelihood gradually vanishes, rendering images that contain little information of objects' boundaries (figure \ref{2D_synth}). With these heat-maps as input and the gray-scaled masked version of original images of cars as ground truth, we trained our conditional GAN model. 
 
-As mentioned before, one significant problem with radar images is that some objects in appear to be much weaker or stronger in power than others, depending on their angle with the receiver mmWave antenna. The results from this experiment show that the GAN is able to learn this phenomenon and compensate for it. As a result, it is able to identify the cars, even if the reflection from them is weak. For instance, in the fourth row of figure \ref{fig2}, the GAN successfully   
+In most cases, the GAN was able to recover the boundaries and the orientation of cars \ref{fig2}. As mentioned before, one significant problem with radar images is that some objects appear to be much weaker or stronger in power than others, depending on their angle with respect to the radar receiver. The results from this experiment show that the GAN is able to learn this phenomenon and compensate for it. As a result, it is able to identify the cars, even if the reflection from them is weak. For instance, in the fourth row of figure \ref{fig2}, the reflection from the small car appears very strong in the heat-map, but the GAN correctly ignores this and proceeds to predict the right size of the cars.  
 
+For our conditional GAN training, we used an NVIDIA Tesla K80 GPU available on Google Cloud using CUDA 9.0 and PyTorch 0.4, along with a local Pascal GTX 1080 GPU using CUDA 10.0 and PyTorch 1.0. We used 1056 images of size $256 \times 256$ as for training, and 452 images for testing. The training phase takes about 11 hours to finish if the complete training dataset is used.

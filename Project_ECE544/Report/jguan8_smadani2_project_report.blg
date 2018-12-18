@@ -4,10 +4,7 @@ Database file #1: egbib.bib
 Warning--entry type for "SAE" isn't style-file defined
 --line 8 of file egbib.bib
 Warning--entry type for "cityscapes" isn't style-file defined
---line 56 of file egbib.bib
+--line 57 of file egbib.bib
 Warning--entry type for "feko" isn't style-file defined
---line 130 of file egbib.bib
-Warning--to sort, need author or key in SAE
-Warning--to sort, need author or key in cityscapes
-Warning--to sort, need author or key in feko
-(There were 6 warnings)
+--line 132 of file egbib.bib
+(There were 3 warnings)
