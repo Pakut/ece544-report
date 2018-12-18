@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  17 DEC 2018 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.26)  17 DEC 2018 18:33
 entering extended mode
 **./jguan8_smadani2_project_report.tex
 (jguan8_smadani2_project_report.tex
@@ -647,43 +647,57 @@ LaTeX Warning: Text page 5 contains only floats.
 Underfull \vbox (badness 1533) has occurred while \output is active []
 
  [5 <./figure/2d_origin.jpg> <./figure/2d_detect.jpg> <./figure/3d_cam.jpg> <./
-figure/2D_heatmap.jpg> <./figure/2d_select.jpg>]) (conclusion.tex)
+figure/2D_heatmap.jpg> <./figure/2d_select.jpg>]) (conclusion.tex) [6 <./figure
+/CAD.png> <./figure/side.jpg> <./figure/specular.jpg> <./figure/126_real_B.png 
+(PNG copy)> <./figure/126_real_A.png (PNG copy)> <./figure/126_fake_B.png (PNG 
+copy)>]
 (jguan8_smadani2_project_report.bbl (jguan8_smadani2_project_report.brf)
 \tf@brf=\write3
 \openout3 = `jguan8_smadani2_project_report.brf'.
 
 
-[6 <./figure/CAD.png> <./figure/side.jpg> <./figure/specular.jpg> <./figure/126
-_real_B.png (PNG copy)> <./figure/126_real_A.png (PNG copy)> <./figure/126_fake
-_B.png (PNG copy)>]
-Underfull \hbox (badness 3492) in paragraph at lines 38--38
+Overfull \hbox (12.19328pt too wide) in paragraph at lines 7--7
+[]\OT1/ptm/m/n/9 Altair.  Al-tair feko.  https://altairhyperworks.com/product/F
+EKO.
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 34--34
 []\OT1/ptm/m/n/9 I. Good-fel-low, J. Pouget-Abadie, M. Mirza, B. Xu,
  []
 
-[7 <./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/
-cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_00
-0008_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_000040_00001
-9_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_000088_000019_leftImg8
-bit_mask_rcnn_out_py.jpg> <./figure/10_real_A.png (PNG copy)> <./figure/12_real
-_A.png (PNG copy)> <./figure/145_real_A.png (PNG copy)> <./figure/171_real_A.pn
-g (PNG copy)> <./figure/207_real_A.png (PNG copy)> <./figure/10_real_B.png (PNG
- copy)> <./figure/12_real_B.png (PNG copy)> <./figure/145_real_B.png (PNG copy)
-> <./figure/171_real_B.png (PNG copy)> <./figure/207_real_B.png (PNG copy)> <./
-figure/10_fake_B.png (PNG copy)> <./figure/12_fake_B.png (PNG copy)> <./figure/
-145_fake_B.png (PNG copy)> <./figure/171_fake_B.png (PNG copy)> <./figure/207_f
-ake_B.png (PNG copy)>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+
+Underfull \vbox (badness 2809) has occurred while \output is active []
+
+ [7 <./figure/cologne_000011_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure
+/cologne_000013_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_0
+00008_000019_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_000040_0000
+19_leftImg8bit_mask_rcnn_out_py.jpg> <./figure/dusseldorf_000088_000019_leftImg
+8bit_mask_rcnn_out_py.jpg> <./figure/10_real_A.png (PNG copy)> <./figure/12_rea
+l_A.png (PNG copy)> <./figure/145_real_A.png (PNG copy)> <./figure/171_real_A.p
+ng (PNG copy)> <./figure/207_real_A.png (PNG copy)> <./figure/10_real_B.png (PN
+G copy)> <./figure/12_real_B.png (PNG copy)> <./figure/145_real_B.png (PNG copy
+)> <./figure/171_real_B.png (PNG copy)> <./figure/207_real_B.png (PNG copy)> <.
+/figure/10_fake_B.png (PNG copy)> <./figure/12_fake_B.png (PNG copy)> <./figure
+/145_fake_B.png (PNG copy)> <./figure/171_fake_B.png (PNG copy)> <./figure/207_
+fake_B.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\OT1/ptm/m/n/9 https://www.nhtsa.gov/technology-innovation/automated-
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
  [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (jguan8_smadani2_project_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `jguan8_smadani2_project_report.brf' has not 
 changed.
 (rerunfilecheck)             Checksum: 70A2E543B436CCD1C4E563FE5A1A2976;1157.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
  8028 strings out of 492970
@@ -707,7 +721,7 @@ ourier/ucrr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/jguan/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on jguan8_smadani2_project_report.pdf (8 pages, 4462013 bytes).
+Output written on jguan8_smadani2_project_report.pdf (8 pages, 4462196 bytes).
 PDF statistics:
  270 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)

@@ -1,13 +1,9 @@
 \begin{thebibliography}{10}\itemsep=-1pt
 
 \bibitem{feko}
-Altair feko.
-
-\bibitem{SAE}
-Automated vehicles for safety.
-
-\bibitem{cityscapes}
-The cityscapes dataset.
+Altair.
+\newblock Altair feko.
+\newblock https://altairhyperworks.com/product/FEKO.
 
 \bibitem{SAR_DL}
 S.~Chen and H.~Wang.
@@ -63,6 +59,12 @@ A.~Nambi, S.~Bannur, I.~Mehta, H.~Kalra, A.~Virmani, V.~Padmandabhan,
 \newblock Demo: Hams: Driver and driving monitoring using a smartphone.
 \newblock {\em ACM MobiCom}, 2018.
 
+\bibitem{SAE}
+U.~S.~D. of~Transportation.
+\newblock Automated vehicles for safety.
+\newblock
+  https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety.
+
 \bibitem{text2pix}
 S.~Reed, Z.~Akata, X.~Yan, L.~Logeswaran, B.~Schiele, and H.~Lee.
 \newblock Generative adversarial text to image synthesis.
@@ -80,6 +82,11 @@ C.~Schwegmann, W.~Kleynhans, B.~Salmon, L.~Mdakane, and R.~Meyer.
   radar imagery.
 \newblock {\em IEEE International Geoscience and Remote Sensing Symposium,
   IGARSS}, 2016.
+
+\bibitem{cityscapes}
+C.~Team.
+\newblock The cityscapes dataset.
+\newblock https://www.cityscapes-dataset.com.
 
 \bibitem{cGANberkeley}
 T.-C. Wang, M.-Y. Liu, J.-Y. Zhu, A.~Tao, J.~Kautz, and B.~Catanzaro.
