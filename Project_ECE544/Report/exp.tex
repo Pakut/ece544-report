@@ -1,5 +1,5 @@
 \section{ Experiments and Results} \label{experiment}
-We first conduct experiments with our custom-built 60 GHz mmWave imaging system to collect real 3D radar images. Our system and the experiment setup is shown in figure \ref{fig_exp}. Figure \ref{fig_real} is an example of the radar image we generate along with the scene it corresponds to. Although we can infer the overall shape of the Jeep from the radar image, the specularity effect is obvious, which makes breaks the car body into sparse clusters of reflectors.
+We first conducted experiments with our custom-built 60 GHz mmWave imaging system to collect real 3D radar images. Our system and the experiment setup is shown in figure \ref{fig_exp}. Figure \ref{fig_real} is an example of the radar image we generated along with the scene it corresponds to. Although we can infer the overall shape of the Jeep from the radar image, the specularity effect breaks the car body into sparse clusters of reflectors.
 
 \begin{figure}
 	\centering
@@ -7,8 +7,6 @@ We first conduct experiments with our custom-built 60 GHz mmWave imaging system 
 	\caption{Custom-built 60 GHz mmWave radar imaging system}
 	\label{fig_exp}
 \end{figure}
-
- Figure shows radar images we generate of a Jeep wrangler, from which we can clearly see that the specular reflection causes the car body to appear as sparse blobs. In other words, radar reflection off smooth objects might mainly towards an angle away from the receiver so as to disappears in the image.
  
 \begin{figure}
 	\centering
@@ -18,7 +16,7 @@ We first conduct experiments with our custom-built 60 GHz mmWave imaging system 
 	\label{fig_real}
 \end{figure} 
 
-Figure \ref{2D_synth} and \ref{3D_synth} demonstrate our 2D and 3D radar image synthesizing procedures. For 2D images generation, we start with video frames from the Cityscapes dataset ~\cite{cityscapes}, run trained Mask R-CNN model to detect and label objects ~\cite{rcnn}. It will also generate object masks which we will use to roughly recover the 3D scene and reflector model with. After that, we simulate radar signal and produce synthesized 2D radar images. At the same time, we extract a high quality images of objects from the camera pictures as the ground truth for our conditional GAN model.  For 3D image generation, we begin with 3D CAD models ~\cite{3Ddata}. We first transform the mesh format model into point reflectors by filling the mesh surfaces. Then we choose a reasonable point of view and transfer point reflector model into a spherical coordinate with the origin or our observing point. By selecting reflectors that are not blocked by others in front of them, we get the effective reflector distribution, and randomly choose a number of clusters to emulate the specularity effect. At the end, we implement the same radar simulation algorithms as the 2D case and generates realistic 3D radar images. 
+Figure \ref{2D_synth} and \ref{3D_synth} demonstrate our 2D and 3D radar image synthesizing procedures. For 2D images generation, we start with video frames from the Cityscapes dataset ~\cite{cityscapes}, and run the trained Mask R-CNN model to detect and label objects ~\cite{rcnn}. Mask R-CNN will also generate object masks which we will use to roughly recover the 3D scene and reflector model with. After that, we simulate radar signal and produce synthesized 2D radar images. At the same time, we extract high quality images of objects from the camera pictures as the ground truth for our conditional GAN model. For 3D image generation, we begin with 3D CAD models ~\cite{3Ddata}. We first transform the mesh format model into point reflectors by filling the mesh surfaces. We then choose a reasonable point of view and transfer point reflector model into a spherical coordinate with the origin at our observing point. By selecting reflectors that are not blocked by others in front of them, we get the effective reflector distribution, and randomly choose a number of clusters to emulate the specularity effect. At the end, we implement the same radar simulation algorithms for the 2D case and generate realistic 3D radar images. 
 
 \begin{figure}
 	\centering
